@@ -312,7 +312,7 @@ GameObject:
   - component: {fileID: 413447648341561334}
   - component: {fileID: 2391453925551242307}
   - component: {fileID: 7423221889787827862}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PlayerCar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -353,8 +353,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canFollowMouse: 1
   canRotation: 0
-  speedMultiplier: 100
-  maxDistanceSpeedMultiplier: 6
+  speedMultiplier: 150
+  maxDistanceSpeedMultiplier: 10
   rayLayer:
     serializedVersion: 2
     m_Bits: 1

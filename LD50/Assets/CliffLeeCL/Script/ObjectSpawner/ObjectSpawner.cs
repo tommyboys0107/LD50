@@ -192,7 +192,7 @@ namespace CliffLeeCL
                     Vector3 spawnPoint = spawnAreas[areaIndex].GetSpawnPoint(false);
 
                     if (spawnPoint != Vector3.zero) {
-                        Instance = (GameObject)Instantiate(objectPrefabs[typeIndex], spawnPoint, Quaternion.identity);
+                        Instance = (GameObject)Instantiate(objectPrefabs[typeIndex], spawnPoint, Random.rotation);
                         Instance.transform.SetParent(objectHolder);
                         ++spawnCount;
                     }

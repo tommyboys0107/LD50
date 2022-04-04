@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1937309012}
   m_Layer: 3
   m_Name: ForceField
-  m_TagString: Untagged
+  m_TagString: BlackHole
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 230287922}
   m_Layer: 3
   m_Name: BlackHole
-  m_TagString: Untagged
+  m_TagString: BlackHole
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -277,6 +277,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 65e4c75f13265f04db561c02133a252c, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65e4c75f13265f04db561c02133a252c, type: 3}
+      propertyPath: m_TagString
+      value: BlackHole
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 65e4c75f13265f04db561c02133a252c, type: 3}
       propertyPath: m_Convex

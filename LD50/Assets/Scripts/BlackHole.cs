@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using CliffLeeCL;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
@@ -32,7 +33,7 @@ public class BlackHole : MonoBehaviour
     {
         if (col.attachedRigidbody == null)
             return;
-        
+
         var forceVec = new Vector3(transform.position.x - col.transform.position.x, 0.0f,
             transform.position.z - col.transform.position.z);
         col.attachedRigidbody.AddForce(forceVec.normalized * pullForceMultiplier * blackHoleRadius * Time.deltaTime, ForceMode.Force);

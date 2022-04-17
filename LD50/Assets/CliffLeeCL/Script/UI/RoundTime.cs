@@ -20,7 +20,6 @@ namespace CliffLeeCL
         void Update()
         {
             //roundTimeText.text = TimeToString(GameManager.Instance.roundTime - GameManager.Instance.roundTimer.CurrentTime);
-            roundTimeText.text = ((int)(GameManager.Instance.roundTime - GameManager.Instance.roundTimer.CurrentTime)).ToString();
         }
 
         /// <summary>

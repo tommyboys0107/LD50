@@ -21,7 +21,6 @@ public class MouseController : MonoBehaviour
     void OnGameOver()
     {
         isGameOver = true;
-        rigid.velocity = Vector3.zero;
     }
 
     void Start()

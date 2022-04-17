@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.Assertions;
 using UnityEngine.SceneManagement;
 
 namespace CliffLeeCL
@@ -9,23 +8,10 @@ namespace CliffLeeCL
     /// </summary>
     public class GameManager : SingletonMono<GameManager>
     {
-
-
-        /// <summary>
-        /// Define how long a sigle round is.
-        /// </summary>
-        public float roundTime = 60.0f;
-
-        [HideInInspector]
         /// <summary>
         /// For count down round time.
         /// </summary>
         public Timer roundTimer;
-        [HideInInspector]
-        /// <summary>
-        /// Is true when the player is in game.
-        /// </summary>
-        public bool isInGame = false;
 
         /// <summary>
         /// Is true when the game is over.
@@ -39,7 +25,6 @@ namespace CliffLeeCL
         {
             base.Awake();
             SceneManager.sceneLoaded += OnSceneLoaded;
-            isInGame = false;
             roundTimer = gameObject.AddComponent<Timer>();
         }
 
@@ -67,31 +52,27 @@ namespace CliffLeeCL
 
             if (scene.buildIndex > 0)
             {
-                isInGame = true;
                 isGameOver = false;
-                Cursor.lockState = CursorLockMode.Locked;
-                Cursor.visible = false;
-                roundTimer.StartCountDownTimer(roundTime, false, OnRoundTimeIsUp);
             }
             else
             {
-                isInGame = false;
                 isGameOver = false;
-                Cursor.lockState = CursorLockMode.None;
-                Cursor.visible = true;
             }
         }
 
-        void OnRoundTimeIsUp()
+        public void GameOver()
         {
-            GameOver();
+            if (isGameOver)
+                return;
+            
+            isGameOver = true;
+            roundTimer.StopTimer();
+            EventManager.Instance.OnGameOver();
         }
 
-        void GameOver()
+        public void GameStart()
         {
-            isGameOver = true;
-            EventManager.Instance.OnGameOver();
-            Time.timeScale = 0.0f;
+            roundTimer.StartTimer();
         }
     }
 }

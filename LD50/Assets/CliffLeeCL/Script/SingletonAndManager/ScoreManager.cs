@@ -88,8 +88,6 @@ namespace CliffLeeCL
 
         void Update()
         {
-            if (currentLove < 1.0f && GameManager.Instance.isInGame)
-                AddLove(gainLoveSpeed * Time.deltaTime);
 
             if (currentCombo > maxCombo)
                 maxCombo = currentCombo;

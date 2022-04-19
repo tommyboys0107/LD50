@@ -25,7 +25,7 @@ namespace CliffLeeCL
         {
             base.Awake();
             SceneManager.sceneLoaded += OnSceneLoaded;
-            roundTimer = gameObject.AddComponent<Timer>();
+            roundTimer = gameObject.AddComponent<Timer>(); 
         }
 
         /// <summary>

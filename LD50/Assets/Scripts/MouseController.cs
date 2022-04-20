@@ -7,6 +7,7 @@ using Unity.Mathematics;
 
 public class MouseController : MonoBehaviour
 {
+    [SerializeField] GameObject tapHintObj;
     [SerializeField] bool canFollowMouse = true;
     [SerializeField] bool canRotation = true;
     [SerializeField] float speedMultiplier = 60.0f;
@@ -16,6 +17,7 @@ public class MouseController : MonoBehaviour
     Rigidbody rigid = null;
     Camera mainCamera = null;
     Vector3 worldMousePosition = Vector3.zero;
+    bool isGameStart = false;
     bool isGameOver = false;
 
     void OnGameOver()
@@ -31,6 +33,16 @@ public class MouseController : MonoBehaviour
         EventManager.Instance.onGameOver += OnGameOver;
     }
 
+    void OnMouseUpAsButton()
+    {
+        if (isGameStart)
+            return;
+
+        isGameStart = true;
+        tapHintObj.SetActive(false);
+        GameManager.Instance.GameStart();
+    }
+
     void OnDisable()
     {
         EventManager.Instance.onGameOver -= OnGameOver;
@@ -38,7 +50,7 @@ public class MouseController : MonoBehaviour
 
     void Update()
     {
-        if (isGameOver)
+        if (!isGameStart || isGameOver || gameObject.layer == LayerMask.NameToLayer("BlackHole")) 
             return;
 
         if (Physics.Raycast(mainCamera.ScreenPointToRay(Input.mousePosition), out var hit, 100.0f,
@@ -52,7 +64,7 @@ public class MouseController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (isGameOver)
+        if (!isGameStart || isGameOver || gameObject.layer == LayerMask.NameToLayer("BlackHole"))
             return;
 
         if (canFollowMouse)

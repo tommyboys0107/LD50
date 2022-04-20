@@ -39,7 +39,7 @@ public class Leaderboard : MonoBehaviour
         UpdateLeaderboard();
         if (PlayerCurrentRecordTicks > PlayerBestRecordTicks)
             PlayerPrefs.SetInt("PlayerBestRecord", PlayerCurrentRecordTicks);
-        playerRecordText.text = TimeSpan.FromSeconds(GameManager.Instance.roundTimer.CurrentTime).ToString("mm:ss.ff");
+        playerRecordText.text = TimeSpan.FromSeconds(GameManager.Instance.roundTimer.CurrentTime).ToString("mm\\:ss\\.ff");
         playerBestRecordText.text = $"Best: {@TimeSpan.FromTicks(PlayerBestRecordTicks):mm\\:ss\\.ff}";
     }
 
@@ -106,7 +106,7 @@ public class Leaderboard : MonoBehaviour
     void SubmitScore(string inputStr)
     {
         isWaitingSubmitResponse = true;
-        LootLockerSDKManager.SubmitScore(inputStr, PlayerBestRecordTicks, leaderBoardID, (response) =>
+        LootLockerSDKManager.SubmitScore(inputStr, PlayerCurrentRecordTicks, leaderBoardID, (response) =>
         {
             if (response.success)
             {

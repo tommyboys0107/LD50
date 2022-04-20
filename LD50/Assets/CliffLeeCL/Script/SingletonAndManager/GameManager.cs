@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace CliffLeeCL
@@ -16,7 +17,7 @@ namespace CliffLeeCL
         /// <summary>
         /// Is true when the game is over.
         /// </summary>
-        bool isGameOver= false;
+        bool isGameOver = false;
 
         /// <summary>
         /// Awake is called when the script instance is being loaded.
@@ -48,16 +49,8 @@ namespace CliffLeeCL
         /// <param name="level">The index of the level that was loaded.</param>
         public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         {
-            Time.timeScale = 1.0f;
-
-            if (scene.buildIndex > 0)
-            {
-                isGameOver = false;
-            }
-            else
-            {
-                isGameOver = false;
-            }
+            Time.timeScale = 0.0f;
+            isGameOver = false;
         }
 
         public void GameOver()
@@ -72,6 +65,7 @@ namespace CliffLeeCL
 
         public void GameStart()
         {
+            Time.timeScale = 1.0f;
             roundTimer.StartTimer();
         }
     }

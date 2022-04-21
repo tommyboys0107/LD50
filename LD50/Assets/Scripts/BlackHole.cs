@@ -7,9 +7,12 @@ using UnityEngine;
 
 public class BlackHole : MonoBehaviour
 {
+    [SerializeField] Light light;
     [SerializeField] float changeLayerRadiusMultiplier = 1.0f;
     [SerializeField] float pullForceMultiplier = 1.0f;
-    [SerializeField] float growSpeed = 0.1f;
+    [SerializeField] float radiusGrowSpeed = 0.1f;
+    [SerializeField] float lightIntensityGrowSpeed = 1.0f;
+    [SerializeField] float lightRangeGrowSpeed = 0.5f;
 
     [ShowInInspector, ReadOnly] float blackHoleRadius;
 
@@ -25,7 +28,9 @@ public class BlackHole : MonoBehaviour
 
     void Update()
     {
-        blackHoleRadius += growSpeed * Time.deltaTime;
+        light.intensity += lightIntensityGrowSpeed * Time.deltaTime;
+        light.range += lightRangeGrowSpeed * Time.deltaTime;
+        blackHoleRadius += radiusGrowSpeed * Time.deltaTime;
         transform.localScale = Vector3.one * blackHoleRadius * 2.0f;
     }
 

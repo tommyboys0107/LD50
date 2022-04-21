@@ -51,6 +51,7 @@ namespace CliffLeeCL
         {
             Time.timeScale = 0.0f;
             isGameOver = false;
+            AudioManager.Instance.PlayBGM(AudioManager.AudioName.MenuBGM);
         }
 
         public void GameOver()
@@ -61,12 +62,15 @@ namespace CliffLeeCL
             isGameOver = true;
             roundTimer.StopTimer();
             EventManager.Instance.OnGameOver();
+            AudioManager.Instance.StopBGM();
+            AudioManager.Instance.PlaySound(AudioManager.AudioName.GameOver); 
         }
 
         public void GameStart()
         {
             Time.timeScale = 1.0f;
             roundTimer.StartTimer();
+            AudioManager.Instance.PlayBGM(AudioManager.AudioName.GameBGM);
         }
     }
 }

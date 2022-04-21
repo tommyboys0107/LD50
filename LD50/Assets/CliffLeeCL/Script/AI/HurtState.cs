@@ -48,8 +48,7 @@ namespace CliffLeeCL
             Object.Destroy(stateContext.gameObject, stateContext.enemyStatus.destroyTime);
 
             stateContext.animator.speed = 0.0f;
-            AudioManager.Instance.PlaySoundRandomClipAndPitch(AudioManager.AudioName.EnemyDead1,
-                AudioManager.AudioName.EnemyDead2, AudioManager.AudioName.EnemyDead3, AudioManager.AudioName.EnemySlash);
+            
         }
     }
 }

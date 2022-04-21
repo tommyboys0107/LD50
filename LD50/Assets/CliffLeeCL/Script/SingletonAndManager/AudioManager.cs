@@ -12,17 +12,15 @@ namespace CliffLeeCL
         public enum AudioName
         {
             ButtonClicked,
-            EnemyDead1,
-            EnemyDead2,
-            EnemyDead3,
-            EnemySlash,
-            Fail,
-            Pass
+            GameOver,
+            MenuBGM,
+            GameBGM,
         }
 
         public AudioMixerGroup audioGroup;
         public AudioClip[] audioClips;
         public List<AudioSource> pooledSources;
+        public AudioSource bgmSource;
         public int pooledAmount = 10;
         public float lowPitchRange = 0.95f, highPitchRange = 1.05f;
         public bool canGrow = true;
@@ -40,6 +38,17 @@ namespace CliffLeeCL
                 source.playOnAwake = false;
                 pooledSources.Add(source);
             }
+        }
+
+        public void PlayBGM(AudioName audioName)
+        {
+            bgmSource.clip = audioClips[(int)audioName];
+            bgmSource.Play();
+        }
+
+        public void StopBGM()
+        {
+            bgmSource.Stop();
         }
 
         public AudioSource GetSoucre()

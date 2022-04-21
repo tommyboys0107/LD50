@@ -42,6 +42,7 @@ namespace CliffLeeCL
 
         public void PlayBGM(AudioName audioName)
         {
+            StopBGM();
             bgmSource.clip = audioClips[(int)audioName];
             bgmSource.Play();
         }

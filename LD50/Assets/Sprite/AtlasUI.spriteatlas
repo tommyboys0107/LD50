@@ -49,8 +49,48 @@ SpriteAtlas:
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites: []
-  m_PackedSpriteNamesToIndex: []
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 80f68c00656794e4585251cdd2d8a82c, type: 3}
+  - {fileID: 21300000, guid: f88895c191e9c7a4098eae4dcbc92984, type: 3}
+  - {fileID: 21300000, guid: 28a6fce2eaa817f43b8d92c23344aea3, type: 3}
+  - {fileID: 21300000, guid: d6d77ec33e65a07459d1c88c793ef220, type: 3}
+  - {fileID: 21300000, guid: c0ac0365adeb544489bbaed6523e06cb, type: 3}
+  - {fileID: 21300000, guid: 1e360cb5ada49fb43902bea7202eb338, type: 3}
+  - {fileID: 21300000, guid: 0cd4bbf698413d94682f3cff99f66d3a, type: 3}
+  - {fileID: 21300000, guid: 30d4540787e1ecd4daaa2a3b0f6a6eed, type: 3}
+  - {fileID: 21300000, guid: db585f1714fa4064480bfce65923537b, type: 3}
+  - {fileID: 21300000, guid: 395f73977e407fd49af7e79cea33eefe, type: 3}
+  - {fileID: 21300000, guid: 4844eba7d2c7a6b4bb3de51427ccdae1, type: 3}
+  - {fileID: 21300000, guid: 909dca28436a7594482871e35455b46a, type: 3}
+  - {fileID: 21300000, guid: f8c960c848f819649a8bd6c39c54901a, type: 3}
+  - {fileID: 21300000, guid: f5691d4a3af637440ae0da59b2d53105, type: 3}
+  - {fileID: 21300000, guid: e7051a5a3afbce340924184d59133751, type: 3}
+  - {fileID: 21300000, guid: dbca081b93768774bb7c9b4e582702df, type: 3}
+  - {fileID: 21300000, guid: eaef22be2417dba4196ebdfa06cb6b0a, type: 3}
+  - {fileID: 21300000, guid: 7f34f73ffde45dc4db3274f479c9ad62, type: 3}
+  - {fileID: 21300000, guid: 4f9572aff95cbb8459df0defb0bf4f66, type: 3}
+  - {fileID: 21300000, guid: ad9fbdcf5375a054184a2ce707f80e46, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - metalPanel_yellow
+  - glassPanel_corners
+  - tapTick
+  - glassPanel_cornerTL
+  - metalPanel_redCorner
+  - glassPanel_projection
+  - tap
+  - metalPanel_blueCorner
+  - metalPanel_green
+  - glassPanel
+  - glassPanel_tab
+  - glassPanel_cornerBL
+  - glassPanel_cornerTR
+  - glassPanel_cornerBR
+  - metalPanel_blue
+  - metalPanel_greenCorner
+  - metalPanel_red
+  - metalPanel_yellowCorner
+  - metalPanel_plate
+  - metalPanel
   m_RenderDataMap: {}
   m_Tag: AtlasUI
   m_IsVariant: 0

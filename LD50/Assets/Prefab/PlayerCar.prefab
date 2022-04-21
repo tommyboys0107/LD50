@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 507562660}
   - component: {fileID: 507562661}
   - component: {fileID: 507562662}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: TapHint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 3592452287462580195}
   - component: {fileID: 3592452287461480867}
   - component: {fileID: 4583610022772620525}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: car-passenger-race-wheel_BL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +217,7 @@ GameObject:
   - component: {fileID: 3592452287462580197}
   - component: {fileID: 3592452287461480869}
   - component: {fileID: 8344991437119966105}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: car-passenger-race-wheel_BR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,7 +317,7 @@ GameObject:
   - component: {fileID: 3592452287462580199}
   - component: {fileID: 3592452287461480871}
   - component: {fileID: 7100219781519153322}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: car-passenger-race-wheel_FL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -417,7 +417,7 @@ GameObject:
   - component: {fileID: 413447648341561334}
   - component: {fileID: 2391453925551242307}
   - component: {fileID: 7423221889787827862}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: PlayerCar
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -507,7 +507,7 @@ GameObject:
   - component: {fileID: 3592452287462580207}
   - component: {fileID: 3592452287461480879}
   - component: {fileID: 581506321548649564}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: car-passenger-race-base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -610,7 +610,7 @@ GameObject:
   - component: {fileID: 3592452287462580217}
   - component: {fileID: 3592452287461480889}
   - component: {fileID: 8213927043582082818}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: car-passenger-race-wheel_FR
   m_TagString: Untagged
   m_Icon: {fileID: 0}

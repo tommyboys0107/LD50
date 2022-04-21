@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1462.8572
     height: 732.5715
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Hierarchy
   m_RootView: {fileID: 9}
-  m_MinSize: {x: 875, y: 350}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -41,18 +41,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 924
-    height: 682.5715
+    width: 956
+    height: 683
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 21}
+  m_ActualView: {fileID: 22}
   m_Panes:
-  - {fileID: 21}
   - {fileID: 22}
+  - {fileID: 23}
+  - {fileID: 16}
   - {fileID: 15}
   - {fileID: 14}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 4
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -69,14 +70,14 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 196
-    width: 249.14285
-    height: 169.7143
+    y: 228
+    width: 234.85715
+    height: 197.7143
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 20}
+  m_ActualView: {fileID: 21}
   m_Panes:
-  - {fileID: 20}
+  - {fileID: 21}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &4
@@ -98,12 +99,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 249.14285
-    height: 365.7143
+    width: 234.85715
+    height: 425.7143
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 67
+  controlID: 31
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -121,13 +122,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 249.14285
-    height: 196
+    width: 234.85715
+    height: 228
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 23}
+  m_ActualView: {fileID: 24}
   m_Panes:
-  - {fileID: 23}
+  - {fileID: 24}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &6
@@ -149,12 +150,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 538.8572
-    height: 365.7143
+    width: 507
+    height: 425.7143
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 132
+  controlID: 30
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,15 +172,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 365.7143
-    width: 538.8572
-    height: 316.85718
-  m_MinSize: {x: 201, y: 141}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
+    y: 425.7143
+    width: 507
+    height: 257.2857
+  m_MinSize: {x: 202, y: 141}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
-  - {fileID: 18}
+  - {fileID: 17}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &8
@@ -199,14 +200,14 @@ MonoBehaviour:
   - {fileID: 7}
   m_Position:
     serializedVersion: 2
-    x: 924
+    x: 956
     y: 0
-    width: 538.8572
-    height: 682.5715
+    width: 507
+    height: 683
   m_MinSize: {x: 200, y: 300}
   m_MaxSize: {x: 16192, y: 24288}
   vertical: 1
-  controlID: 131
+  controlID: 29
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,8 +228,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1462.8572
-    height: 732.5715
+    width: 1463
+    height: 733
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -252,7 +253,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1462.8572
+    width: 1463
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -276,12 +277,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1462.8572
-    height: 682.5715
+    width: 1463
+    height: 683
   m_MinSize: {x: 300, y: 300}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 104
+  controlID: 28
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -298,8 +299,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 712.5715
-    width: 1462.8572
+    y: 713
+    width: 1463
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -318,19 +319,50 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 249.14285
+    x: 234.85715
     y: 0
-    width: 289.71432
-    height: 365.7143
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 19}
+    width: 272.14285
+    height: 425.7143
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 19}
-  - {fileID: 17}
+  - {fileID: 20}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: -3237396543322336831, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 72.571434
+    width: 941.8571
+    height: 662
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: -2276
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -630,7 +662,7 @@ MonoBehaviour:
     []\n    },\n    \"m_SerializedDescriptor\": \"VertexDescription.Normal\"\n}\n\n"
   m_AssetMaybeChangedOnDisk: 0
   m_AssetMaybeDeleted: 0
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1501,7 +1533,7 @@ MonoBehaviour:
     \"z\": 0.0,\n        \"w\": 0.0\n    }\n}\n\n"
   m_AssetMaybeChangedOnDisk: 0
   m_AssetMaybeDeleted: 0
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1521,21 +1553,21 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 924.00006
-    y: 438.28574
-    width: 537.8572
-    height: 295.85718
+    x: 956.00006
+    y: 498.28574
+    width: 505
+    height: 236.2857
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  logPanelScroll: {x: 0, y: 465.42853}
+  logPanelScroll: {x: 0, y: 475.7143}
   logPanelSelectedIndex: -1
   logPanelAutoScroll: 1
-  currentFrame: 203974
+  currentFrame: 212932
   logs:
-    lastGrabbedIndex: 10
-    lastGrabbedCount: 11
+    lastGrabbedIndex: 9
+    lastGrabbedCount: 10
     proEntries:
     - logType: 1
       ignore: 0
@@ -1577,7 +1609,7 @@ MonoBehaviour:
         (at Assets/Scripts/Leaderboard.cs:39)
 
         UIController:OnGameOver ()
-        (at Assets/Scripts/UIController.cs:19)
+        (at Assets/Scripts/UIController.cs:25)
 
         CliffLeeCL.EventManager:OnGameOver
         () (at Assets/CliffLeeCL/Script/SingletonAndManager/EventManager.cs:51)
@@ -1601,13 +1633,13 @@ MonoBehaviour:
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 00:02:23.875
-      timeFrame: 1291
-      timeStampDateTimeNow: 00:02:23.875
+      timeStamp: 00:46:53.074
+      timeFrame: 6694
+      timeStampDateTimeNow: 00:46:53.074
       instanceID: 0
       collapsedCount: 0
       cachedHeight: 18.285713
-      cachedHeightLogWidth: 493.85718
+      cachedHeightLogWidth: 461
       stackEntries:
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
@@ -1826,18 +1858,18 @@ MonoBehaviour:
         showSource: 1
       - fileName: Assets/Scripts/UIController.cs
         fileNameWithoutAssets: Scripts/UIController.cs
-        fileNameWithoutAssetsPlusLineNumber: Scripts/UIController.cs:19
+        fileNameWithoutAssetsPlusLineNumber: Scripts/UIController.cs:25
         fileNameWithoutPath: UIController.cs
-        fileNameWithoutPathPlusLineNumber: UIController.cs:19
+        fileNameWithoutPathPlusLineNumber: UIController.cs:25
         fileNamePretty: UIController
         instanceID: -1
         className: UIController
         methodName: OnGameOver
         namespaceName: None
-        lineNumberString: 19
+        lineNumberString: 25
         charNumber: 0
         stackLabel: UIController.OnGameOver()
-        stackLabel2: ' at /Scripts/UIController.cs:19'
+        stackLabel2: ' at /Scripts/UIController.cs:25'
         stackLabel1Content:
           m_Text: 
           m_Image: {fileID: 0}
@@ -2364,7 +2396,7 @@ MonoBehaviour:
         (at Assets/Scripts/Leaderboard.cs:39)
 
         UIController:OnGameOver ()
-        (at Assets/Scripts/UIController.cs:19)
+        (at Assets/Scripts/UIController.cs:25)
 
         CliffLeeCL.EventManager:OnGameOver
         () (at Assets/CliffLeeCL/Script/SingletonAndManager/EventManager.cs:51)
@@ -2388,13 +2420,13 @@ MonoBehaviour:
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 00:02:23.897
-      timeFrame: 1291
-      timeStampDateTimeNow: 00:02:23.897
+      timeStamp: 00:46:53.086
+      timeFrame: 6694
+      timeStampDateTimeNow: 00:46:53.086
       instanceID: 0
       collapsedCount: 0
       cachedHeight: 18.285713
-      cachedHeightLogWidth: 493.85718
+      cachedHeightLogWidth: 461
       stackEntries:
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
@@ -2613,18 +2645,18 @@ MonoBehaviour:
         showSource: 1
       - fileName: Assets/Scripts/UIController.cs
         fileNameWithoutAssets: Scripts/UIController.cs
-        fileNameWithoutAssetsPlusLineNumber: Scripts/UIController.cs:19
+        fileNameWithoutAssetsPlusLineNumber: Scripts/UIController.cs:25
         fileNameWithoutPath: UIController.cs
-        fileNameWithoutPathPlusLineNumber: UIController.cs:19
+        fileNameWithoutPathPlusLineNumber: UIController.cs:25
         fileNamePretty: UIController
         instanceID: -1
         className: UIController
         methodName: OnGameOver
         namespaceName: None
-        lineNumberString: 19
+        lineNumberString: 25
         charNumber: 0
         stackLabel: UIController.OnGameOver()
-        stackLabel2: ' at /Scripts/UIController.cs:19'
+        stackLabel2: ' at /Scripts/UIController.cs:25'
         stackLabel1Content:
           m_Text: 
           m_Image: {fileID: 0}
@@ -3147,13 +3179,13 @@ MonoBehaviour:
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 00:02:23.898
-      timeFrame: 1291
-      timeStampDateTimeNow: 00:02:23.898
+      timeStamp: 00:46:53.086
+      timeFrame: 6694
+      timeStampDateTimeNow: 00:46:53.086
       instanceID: 0
       collapsedCount: 0
       cachedHeight: 18.285713
-      cachedHeightLogWidth: 493.85718
+      cachedHeightLogWidth: 461
       stackEntries:
       - fileName: Assets/CliffLeeCL/Script/SingletonAndManager/EventManager.cs
         fileNameWithoutAssets: CliffLeeCL/Script/SingletonAndManager/EventManager.cs
@@ -3630,7 +3662,7 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 3
-      logOutputHeight: 26
+      logOutputHeight: -1
       listIndex: 3
       nativeIndex: 3
       nativeIdentifier: 0
@@ -3673,13 +3705,13 @@ MonoBehaviour:
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 00:02:23.898
-      timeFrame: 1291
-      timeStampDateTimeNow: 00:02:23.898
+      timeStamp: 00:46:53.086
+      timeFrame: 6694
+      timeStampDateTimeNow: 00:46:53.086
       instanceID: 0
       collapsedCount: 0
       cachedHeight: 18.285713
-      cachedHeightLogWidth: 493.85718
+      cachedHeightLogWidth: 461
       stackEntries:
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
@@ -3697,7 +3729,7 @@ MonoBehaviour:
         stackLabel: LootLockerSDKManager.DebugMessage()
         stackLabel2: ' at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs:95'
         stackLabel1Content:
-          m_Text: LootLockerSDKManager.DebugMessage()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 246.85715
@@ -3728,7 +3760,7 @@ MonoBehaviour:
         stackLabel: LootLockerServerRequest.CallAPI()
         stackLabel2: ' at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerServerRequest.cs:124'
         stackLabel1Content:
-          m_Text: LootLockerServerRequest.CallAPI()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 207.42857
@@ -3759,7 +3791,7 @@ MonoBehaviour:
         stackLabel: LootLockerAPIManager.GuestSession()
         stackLabel2: ' at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/Requests/LootLockerSessionRequest.cs:183'
         stackLabel1Content:
-          m_Text: LootLockerAPIManager.GuestSession()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 229.71428
@@ -3790,7 +3822,7 @@ MonoBehaviour:
         stackLabel: LootLockerSDKManager.StartGuestSession()
         stackLabel2: ' at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs:164'
         stackLabel1Content:
-          m_Text: LootLockerSDKManager.StartGuestSession()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 265.14285
@@ -3820,7 +3852,7 @@ MonoBehaviour:
         stackLabel: Leaderboard.StartGuestSession()
         stackLabel2: ' at /Scripts/Leaderboard.cs:76'
         stackLabel1Content:
-          m_Text: Leaderboard.StartGuestSession()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 198.85715
@@ -3850,7 +3882,7 @@ MonoBehaviour:
         stackLabel: Leaderboard.Start()
         stackLabel2: ' at /Scripts/Leaderboard.cs:29'
         stackLabel1Content:
-          m_Text: Leaderboard.Start()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 118.85714
@@ -4282,13 +4314,13 @@ MonoBehaviour:
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 00:02:23.923
-      timeFrame: 1292
-      timeStampDateTimeNow: 00:02:23.923
+      timeStamp: 00:46:53.106
+      timeFrame: 6695
+      timeStampDateTimeNow: 00:46:53.106
       instanceID: 0
       collapsedCount: 0
-      cachedHeight: 18.285713
-      cachedHeightLogWidth: 493.85718
+      cachedHeight: 32.571426
+      cachedHeightLogWidth: 461
       stackEntries:
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
@@ -4799,13 +4831,13 @@ MonoBehaviour:
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 00:02:23.924
-      timeFrame: 1292
-      timeStampDateTimeNow: 00:02:23.924
+      timeStamp: 00:46:53.106
+      timeFrame: 6695
+      timeStampDateTimeNow: 00:46:53.106
       instanceID: 0
       collapsedCount: 0
       cachedHeight: 18.285713
-      cachedHeightLogWidth: 493.85718
+      cachedHeightLogWidth: 461
       stackEntries:
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
@@ -5284,7 +5316,7 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 6
-      logOutputHeight: 69
+      logOutputHeight: -1
       listIndex: 6
       nativeIndex: 6
       nativeIdentifier: 0
@@ -5320,13 +5352,13 @@ MonoBehaviour:
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 00:02:23.924
-      timeFrame: 1292
-      timeStampDateTimeNow: 00:02:23.924
+      timeStamp: 00:46:53.106
+      timeFrame: 6695
+      timeStampDateTimeNow: 00:46:53.106
       instanceID: 0
       collapsedCount: 0
       cachedHeight: 61.142857
-      cachedHeightLogWidth: 493.85718
+      cachedHeightLogWidth: 461
       stackEntries:
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
@@ -5344,7 +5376,7 @@ MonoBehaviour:
         stackLabel: LootLockerSDKManager.DebugMessage()
         stackLabel2: ' at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs:95'
         stackLabel1Content:
-          m_Text: LootLockerSDKManager.DebugMessage()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 246.85715
@@ -5375,7 +5407,7 @@ MonoBehaviour:
         stackLabel: LootLockerBaseServerAPI.CreateWebRequest()
         stackLabel2: ' at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerBaseServerAPI.cs:287'
         stackLabel1Content:
-          m_Text: LootLockerBaseServerAPI.CreateWebRequest()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 281.14285
@@ -5406,7 +5438,7 @@ MonoBehaviour:
         stackLabel: LootLockerBaseServerAPI/<>c__DisplayClass8_0/<<SendRequest>g__coroutine|0>d.MoveNext()
         stackLabel2: ' at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerBaseServerAPI.cs:74'
         stackLabel1Content:
-          m_Text: LootLockerBaseServerAPI/<>c__DisplayClass8_0/<<SendRequest>g__coroutine|0>d.MoveNext()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 574.2857
@@ -5436,7 +5468,7 @@ MonoBehaviour:
         stackLabel: SetupCoroutine.InvokeMoveNext()
         stackLabel2: 
         stackLabel1Content:
-          m_Text: SetupCoroutine.InvokeMoveNext()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 201.14285
@@ -5836,18 +5868,18 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 7
-      logOutputHeight: 97
+      logOutputHeight: -1
       listIndex: 7
       nativeIndex: 7
       nativeIdentifier: 0
       originalLog: 'Server Response: GET leaderboards/2476/list?count=10 completed
-        in 0.3355 secs.
+        in 1.3987 secs.
 
-        Response: {"pagination":{"total":3,"next_cursor":0,"previous_cursor":null},"items":[{"rank":1,"member_id":"CL","score":332530000,"player":null,"metadata":""},{"rank":2,"member_id":"Roger","score":122540000,"player":null,"metadata":""},{"rank":3,"member_id":"?","score":26460000,"player":null,"metadata":""}]}'
+        Response: {"pagination":{"total":5,"next_cursor":0,"previous_cursor":null},"items":[{"rank":1,"member_id":"TedRay","score":340400000,"player":null,"metadata":""},{"rank":2,"member_id":"CL","score":332530000,"player":null,"metadata":""},{"rank":3,"member_id":"Roger","score":122540000,"player":null,"metadata":""},{"rank":4,"member_id":"1234251","score":30980000,"player":null,"metadata":""},{"rank":5,"member_id":"?","score":26460000,"player":null,"metadata":""}]}'
       originalStackTrace: 'Server Response: GET leaderboards/2476/list?count=10 completed
-        in 0.3355 secs.
+        in 1.3987 secs.
 
-        Response: {"pagination":{"total":3,"next_cursor":0,"previous_cursor":null},"items":[{"rank":1,"member_id":"CL","score":332530000,"player":null,"metadata":""},{"rank":2,"member_id":"Roger","score":122540000,"player":null,"metadata":""},{"rank":3,"member_id":"?","score":26460000,"player":null,"metadata":""}]}
+        Response: {"pagination":{"total":5,"next_cursor":0,"previous_cursor":null},"items":[{"rank":1,"member_id":"TedRay","score":340400000,"player":null,"metadata":""},{"rank":2,"member_id":"CL","score":332530000,"player":null,"metadata":""},{"rank":3,"member_id":"Roger","score":122540000,"player":null,"metadata":""},{"rank":4,"member_id":"1234251","score":30980000,"player":null,"metadata":""},{"rank":5,"member_id":"?","score":26460000,"player":null,"metadata":""}]}
 
         UnityEngine.Debug:Log
         (object)
@@ -5867,29 +5899,33 @@ MonoBehaviour:
       nativeLineNumber: 95
       watchName: 
       logText: 'Server Response: GET leaderboards/2476/list?count=10 completed in
-        0.3355 secs.
+        1.3987 secs.
 
-        Response: {"pagination":{"total":3,"next_cursor":0,"previous_cursor":null},"items":[{"rank":1,"member_id":"CL","score":332530000,"player":null,"metadata":""},{"rank":2,"member_id":"Roger","score":122540000,"player":null,"metadata":""},{"rank":3,"member_id":"?","score":26460000,"player":null,"metadata":""}]}'
+        Response: {"pagination":{"total":5,"next_cursor":0,"previous_cursor":null},"items":[{"rank":1,"member_id":"TedRay","score":340400000,"player":null,"metadata":""},{"rank":2,"member_id":"CL","score":332530000,"player":null,"metadata":""},{"rank":3,"member_id":"Roger","score":122540000,"player":null,"metadata":""},{"rank":4,"member_id":"1234251","score":30980000,"player":null,"metadata":""},{"rank":5,"member_id":"?","score":26460000,"player":null,"metadata":""}]}'
       logTruncatedText: 'Server Response: GET leaderboards/2476/list?count=10 completed
-        in 0.3355 secs.
+        in 1.3987 secs.
 
-        Response: {"pagination":{"total":3,"next_cursor":0,"previous_cursor":null},"items":[{"rank":1,"member_id":"CL","score":332530000,"player":null,"metadata":""},{"rank":2,"member_id":"Roger","score":122540000,"player":null,"metadata":""},{"rank":3,"member_id":"?","score":26460000,"player":null,"metadata":""}]}'
+        Response: {"pagination":{"total":5,"next_cursor":0,"previous_cursor":null},"items":[{"rank":1,"member_id":"TedRay","score":340400000,"player":null,"metadata":""},{"rank":2,"member_id":"CL","score":332530000,"player":null,"metadata":""},{"rank":3,"member_id":"Roger","score":122540000,"player":null,"metadata":""},{"rank":4,"member_id":"1234251","score":30980000,"player":null,"metadata":""},{"rank":5,"member_id":"?","sco
+
+        ...'
       logColumnText: 'Server Response: GET leaderboards/2476/list?count=10 completed
-        in 0.3355 secs.
+        in 1.3987 secs.
 
-        Response: {"pagination":{"total":3,"next_cursor":0,"previous_cursor":null},"items":[{"rank":1,"member_id":"CL","score":332530000,"player":null,"metadata":""},{"rank":2,"member_id":"Roger","score":122540000,"player":null,"metadata":""},{"rank":3,"member_id":"?","score":26460000,"player":null,"metadata":""}]}'
+        Response: {"pagination":{"total":5,"next_cursor":0,"previous_cursor":null},"items":[{"rank":1,"member_id":"TedRay","score":340400000,"player":null,"metadata":""},{"rank":2,"member_id":"CL","score":332530000,"player":null,"metadata":""},{"rank":3,"member_id":"Roger","score":122540000,"player":null,"metadata":""},{"rank":4,"member_id":"1234251","score":30980000,"player":null,"metadata":""},{"rank":5,"member_id":"?","sco
+
+        ...'
       fileName: 
       className: 
       namespaceName: 
       lineCount: 2
       hasSourceCode: 0
-      timeStamp: 00:02:24.281
-      timeFrame: 1333
-      timeStampDateTimeNow: 00:02:24.281
+      timeStamp: 00:46:54.507
+      timeFrame: 7029
+      timeStampDateTimeNow: 00:46:54.507
       instanceID: 0
       collapsedCount: 0
-      cachedHeight: 89.71429
-      cachedHeightLogWidth: 493.85718
+      cachedHeight: 132.57143
+      cachedHeightLogWidth: 461
       stackEntries:
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
@@ -5907,7 +5943,7 @@ MonoBehaviour:
         stackLabel: LootLockerSDKManager.DebugMessage()
         stackLabel2: ' at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs:95'
         stackLabel1Content:
-          m_Text: LootLockerSDKManager.DebugMessage()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 246.85715
@@ -5938,7 +5974,7 @@ MonoBehaviour:
         stackLabel: LootLockerBaseServerAPI/<>c__DisplayClass8_0/<<SendRequest>g__coroutine|0>d.MoveNext()
         stackLabel2: ' at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerBaseServerAPI.cs:101'
         stackLabel1Content:
-          m_Text: LootLockerBaseServerAPI/<>c__DisplayClass8_0/<<SendRequest>g__coroutine|0>d.MoveNext()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 574.2857
@@ -5968,7 +6004,7 @@ MonoBehaviour:
         stackLabel: SetupCoroutine.InvokeMoveNext()
         stackLabel2: 
         stackLabel1Content:
-          m_Text: SetupCoroutine.InvokeMoveNext()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 201.14285
@@ -6372,18 +6408,18 @@ MonoBehaviour:
       listIndex: 8
       nativeIndex: 8
       nativeIdentifier: 0
-      originalLog: "Server Response: POST v2/session/guest completed in 0.7247 secs.\nResponse:
+      originalLog: "Server Response: POST v2/session/guest completed in 1.8476 secs.\nResponse:
         {\n    \"success\": true,\n    \"player_id\": 1966465,\n    \"player_identifier\":
         \"627f4939-81f6-46e7-a69e-f6487de1dd4c\",\n    \"public_uid\": \"EFCA77GS\",\n   
         \"seen_before\": true,\n    \"check_grant_notifications\": false,\n    \"check_deactivation_notifications\":
         false,\n    \"check_dlcs\": [],\n    \"public\": true,\n    \"session_token\":
-        \"9395fad656bba9ef123e688067566faf1d9e64cd\"\n}"
-      originalStackTrace: "Server Response: POST v2/session/guest completed in 0.7247
+        \"d37275800c8d7bf71ffb50fa840c6100f2a9629d\"\n}"
+      originalStackTrace: "Server Response: POST v2/session/guest completed in 1.8476
         secs.\nResponse: {\n    \"success\": true,\n    \"player_id\": 1966465,\n   
         \"player_identifier\": \"627f4939-81f6-46e7-a69e-f6487de1dd4c\",\n    \"public_uid\":
         \"EFCA77GS\",\n    \"seen_before\": true,\n    \"check_grant_notifications\":
         false,\n    \"check_deactivation_notifications\": false,\n    \"check_dlcs\":
-        [],\n    \"public\": true,\n    \"session_token\": \"9395fad656bba9ef123e688067566faf1d9e64cd\"\n}\nUnityEngine.Debug:Log
+        [],\n    \"public\": true,\n    \"session_token\": \"d37275800c8d7bf71ffb50fa840c6100f2a9629d\"\n}\nUnityEngine.Debug:Log
         (object)\nLootLocker.Requests.LootLockerSDKManager:DebugMessage (string,bool)
         (at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs:95)\nLootLocker.LootLockerBaseServerAPI/<>c__DisplayClass8_0/<<SendRequest>g__coroutine|0>d:MoveNext
         () (at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerBaseServerAPI.cs:101)\nUnityEngine.SetupCoroutine:InvokeMoveNext
@@ -6392,36 +6428,36 @@ MonoBehaviour:
       nativeFileNamePretty: 
       nativeLineNumber: 95
       watchName: 
-      logText: "Server Response: POST v2/session/guest completed in 0.7247 secs.\nResponse:
+      logText: "Server Response: POST v2/session/guest completed in 1.8476 secs.\nResponse:
         {\n    \"success\": true,\n    \"player_id\": 1966465,\n    \"player_identifier\":
         \"627f4939-81f6-46e7-a69e-f6487de1dd4c\",\n    \"public_uid\": \"EFCA77GS\",\n   
         \"seen_before\": true,\n    \"check_grant_notifications\": false,\n    \"check_deactivation_notifications\":
         false,\n    \"check_dlcs\": [],\n    \"public\": true,\n    \"session_token\":
-        \"9395fad656bba9ef123e688067566faf1d9e64cd\"\n}"
-      logTruncatedText: "Server Response: POST v2/session/guest completed in 0.7247
+        \"d37275800c8d7bf71ffb50fa840c6100f2a9629d\"\n}"
+      logTruncatedText: "Server Response: POST v2/session/guest completed in 1.8476
         secs.\nResponse: {\n    \"success\": true,\n    \"player_id\": 1966465,\n   
         \"player_identifier\": \"627f4939-81f6-46e7-a69e-f6487de1dd4c\",\n    \"public_uid\":
         \"EFCA77GS\",\n    \"seen_before\": true,\n    \"check_grant_notifications\":
         false,\n    \"check_deactivation_notifications\": false,\n    \"check_dlcs\":
-        [],\n    \"public\": true,\n    \"session_token\": \"9395fad656bba9ef123e688067566faf1d9e64cd\"\n}"
-      logColumnText: "Server Response: POST v2/session/guest completed in 0.7247
+        [],\n    \"public\": true,\n    \"session_token\": \"d37275800c8d7bf71ffb50fa840c6100f2a9629d\"\n}"
+      logColumnText: "Server Response: POST v2/session/guest completed in 1.8476
         secs.\nResponse: {\n    \"success\": true,\n    \"player_id\": 1966465,\n   
         \"player_identifier\": \"627f4939-81f6-46e7-a69e-f6487de1dd4c\",\n    \"public_uid\":
         \"EFCA77GS\",\n    \"seen_before\": true,\n    \"check_grant_notifications\":
         false,\n    \"check_deactivation_notifications\": false,\n    \"check_dlcs\":
-        [],\n    \"public\": true,\n    \"session_token\": \"9395fad656bba9ef123e688067566faf1d9e64cd\"\n}"
+        [],\n    \"public\": true,\n    \"session_token\": \"d37275800c8d7bf71ffb50fa840c6100f2a9629d\"\n}"
       fileName: 
       className: 
       namespaceName: 
       lineCount: 13
       hasSourceCode: 0
-      timeStamp: 00:02:24.606
-      timeFrame: 1364
-      timeStampDateTimeNow: 00:02:24.606
+      timeStamp: 00:46:54.924
+      timeFrame: 7111
+      timeStampDateTimeNow: 00:46:54.924
       instanceID: 0
       collapsedCount: 0
       cachedHeight: 189.71428
-      cachedHeightLogWidth: 493.85718
+      cachedHeightLogWidth: 461
       stackEntries:
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
@@ -6946,14 +6982,14 @@ MonoBehaviour:
       className: 
       namespaceName: 
       lineCount: 1
-      hasSourceCode: 0
-      timeStamp: 00:02:24.606
-      timeFrame: 1364
-      timeStampDateTimeNow: 00:02:24.606
+      hasSourceCode: 1
+      timeStamp: 00:46:54.924
+      timeFrame: 7111
+      timeStampDateTimeNow: 00:46:54.924
       instanceID: 0
       collapsedCount: 0
       cachedHeight: 18.285713
-      cachedHeightLogWidth: 493.85718
+      cachedHeightLogWidth: 461
       stackEntries:
       - fileName: Assets/Scripts/Leaderboard.cs
         fileNameWithoutAssets: Scripts/Leaderboard.cs
@@ -6982,8 +7018,13 @@ MonoBehaviour:
         stackLabel2Width: 180.57143
         stackLabel2Height: 24.285713
         stackSourceLineHeight: 16.285713
-        sourceCode: []
-        sourceCodeUpdated: 0
+        sourceCode:
+        - '74:   void StartGuestSession()'
+        - '75:   {'
+        - '76:       LootLockerSDKManager.StartGuestSession((response) => { Debug.Log("Login
+          success!"); });'
+        - '77:   }'
+        sourceCodeUpdated: 1
         showSource: 1
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
@@ -7013,8 +7054,12 @@ MonoBehaviour:
         stackLabel2Width: 777.1429
         stackLabel2Height: 24.285713
         stackSourceLineHeight: 16.285713
-        sourceCode: []
-        sourceCodeUpdated: 0
+        sourceCode:
+        - '169:           PlayerPrefs.Save();'
+        - '171:           onComplete(response);'
+        - '172:       });'
+        - '173:   }'
+        sourceCodeUpdated: 1
         showSource: 1
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/Requests/LootLockerSessionRequest.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/Requests/LootLockerSessionRequest.cs
@@ -7044,8 +7089,13 @@ MonoBehaviour:
         stackLabel2Width: 857.7143
         stackLabel2Height: 24.285713
         stackSourceLineHeight: 16.285713
-        sourceCode: []
-        sourceCodeUpdated: 0
+        sourceCode:
+        - '193:       response.success = serverResponse.success;'
+        - '194:       response.Error = serverResponse.Error; response.statusCode
+          = serverResponse.statusCode;'
+        - '195:       onComplete?.Invoke(response);'
+        - '197:   }, false);'
+        sourceCodeUpdated: 1
         showSource: 1
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerServerRequest.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerServerRequest.cs
@@ -7075,8 +7125,14 @@ MonoBehaviour:
         stackLabel2Width: 789.7143
         stackLabel2Height: 24.285713
         stackSourceLineHeight: 16.285713
-        sourceCode: []
-        sourceCodeUpdated: 0
+        sourceCode:
+        - '140:       new LootLockerServerRequest(endPoint, httpMethod, body, headers,
+          callerRole: callerRole).Send((response) =>'
+        - '141:        {'
+        - '142:            onComplete?.Invoke(response);'
+        - '143:        });'
+        - '144:   }'
+        sourceCodeUpdated: 1
         showSource: 1
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerServerRequest.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerServerRequest.cs
@@ -7106,8 +7162,13 @@ MonoBehaviour:
         stackLabel2Width: 790.2857
         stackLabel2Height: 24.285713
         stackSourceLineHeight: 16.285713
-        sourceCode: []
-        sourceCodeUpdated: 0
+        sourceCode:
+        - '273:       LootLockerBaseServerAPI.I.SendRequest(this, (response) =>'
+        - '274:       {'
+        - '275:           OnServerResponse?.Invoke(response);'
+        - '276:       });'
+        - '277:   }'
+        sourceCodeUpdated: 1
         showSource: 1
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerBaseServerAPI.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerBaseServerAPI.cs
@@ -7137,8 +7198,12 @@ MonoBehaviour:
         stackLabel2Width: 790.8571
         stackLabel2Height: 24.285713
         stackSourceLineHeight: 16.285713
-        sourceCode: []
-        sourceCodeUpdated: 0
+        sourceCode:
+        - '182:       response.hasError = false;'
+        - '183:       response.text = webRequest.downloadHandler.text;'
+        - '184:       OnServerResponse?.Invoke(response);'
+        - '185:   }'
+        sourceCodeUpdated: 1
         showSource: 1
       - fileName: None
         fileNameWithoutAssets: None
@@ -7168,7 +7233,7 @@ MonoBehaviour:
         stackLabel2Height: 24.285713
         stackSourceLineHeight: 16.285713
         sourceCode: []
-        sourceCodeUpdated: 0
+        sourceCodeUpdated: 1
         showSource: 1
       ignoredStackEntries: []
       lastMatchedCount: 1
@@ -7444,600 +7509,6 @@ MonoBehaviour:
         showInToolbar: 1
         hideLabelInToolbar: 0
         hideWhenNoMatches: 0
-      assignedTempFilter:
-        name: 
-        isEnabled: 1
-        collapsed: 0
-        itemGUID: 
-        filterName: 
-        mainColor: {r: 1, g: 1, b: 1, a: 1}
-        isStandardFilter: 0
-        isTempFilter: 0
-        filterOnly: 0
-        useAdvancedColors: 0
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 0
-        useIconTexture: 0
-        filterFormatVersion: -1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list: []
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
-    - logType: 4
-      ignore: 0
-      processed: 1
-      tempFilterProcessed: 1
-      remoteEndPoint: Local
-      logPanelVisible: 1
-      logPanelIndex: 10
-      logOutputHeight: 54
-      listIndex: 10
-      nativeIndex: 10
-      nativeIdentifier: 0
-      originalLog: 'MissingReferenceException: The object of type ''GameObject''
-        has been destroyed but you are still trying to access it.
-
-        Your script
-        should either check if it is null or you should not destroy the object.'
-      originalStackTrace: 'MissingReferenceException: The object of type ''GameObject''
-        has been destroyed but you are still trying to access it.
-
-        Your script
-        should either check if it is null or you should not destroy the object.
-
-        UIController.OnGameOver
-        () (at Assets/Scripts/UIController.cs:19)
-
-        CliffLeeCL.EventManager.OnGameOver
-        () (at Assets/CliffLeeCL/Script/SingletonAndManager/EventManager.cs:51)
-
-        CliffLeeCL.GameManager.GameOver
-        () (at Assets/CliffLeeCL/Script/SingletonAndManager/GameManager.cs:63)
-
-        RecyclePlane.OnTriggerEnter
-        (UnityEngine.Collider col) (at Assets/Scripts/RecyclePlane.cs:14)
-
-'
-      nativeFileName: 
-      nativeFileNamePretty: 
-      nativeLineNumber: 0
-      watchName: 
-      logText: 'MissingReferenceException: The object of type ''GameObject'' has
-        been destroyed but you are still trying to access it.
-
-        Your script
-        should either check if it is null or you should not destroy the object.'
-      logTruncatedText: 'MissingReferenceException: The object of type ''GameObject''
-        has been destroyed but you are still trying to access it.
-
-        Your script
-        should either check if it is null or you should not destroy the object.'
-      logColumnText: 'MissingReferenceException: The object of type ''GameObject''
-        has been destroyed but you are still trying to access it.
-
-        Your script
-        should either check if it is null or you should not destroy the object.'
-      fileName: 
-      className: 
-      namespaceName: 
-      lineCount: 2
-      hasSourceCode: 1
-      timeStamp: 00:03:16.885
-      timeFrame: 2325
-      timeStampDateTimeNow: 00:03:16.885
-      instanceID: 171846
-      collapsedCount: 0
-      cachedHeight: 46.857143
-      cachedHeightLogWidth: 493.85718
-      stackEntries:
-      - fileName: Assets/Scripts/UIController.cs
-        fileNameWithoutAssets: Scripts/UIController.cs
-        fileNameWithoutAssetsPlusLineNumber: Scripts/UIController.cs:19
-        fileNameWithoutPath: UIController.cs
-        fileNameWithoutPathPlusLineNumber: UIController.cs:19
-        fileNamePretty: UIController
-        instanceID: -1
-        className: UIController
-        methodName: OnGameOver
-        namespaceName: None
-        lineNumberString: 19
-        charNumber: 0
-        stackLabel: UIController.OnGameOver()
-        stackLabel2: ' at /Scripts/UIController.cs:19'
-        stackLabel1Content:
-          m_Text: UIController.OnGameOver()
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 160.57143
-        stackLabel1Height: 24.285713
-        stackLabel2Content:
-          m_Text: ' at /Scripts/UIController.cs:19'
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 174.28572
-        stackLabel2Height: 24.285713
-        stackSourceLineHeight: 16.285713
-        sourceCode:
-        - '17:   {'
-        - '18:       foreach (var obj in openObjOnGameOver)'
-        - '19:           obj.SetActive(true);'
-        - '20:       foreach (var obj in closeObjOnGameOver)'
-        - '21:           obj.SetActive(false);'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/CliffLeeCL/Script/SingletonAndManager/EventManager.cs
-        fileNameWithoutAssets: CliffLeeCL/Script/SingletonAndManager/EventManager.cs
-        fileNameWithoutAssetsPlusLineNumber: CliffLeeCL/Script/SingletonAndManager/EventManager.cs:51
-        fileNameWithoutPath: EventManager.cs
-        fileNameWithoutPathPlusLineNumber: EventManager.cs:51
-        fileNamePretty: EventManager
-        instanceID: -1
-        className: EventManager
-        methodName: OnGameOver
-        namespaceName: CliffLeeCL
-        lineNumberString: 51
-        charNumber: 0
-        stackLabel: EventManager.OnGameOver()
-        stackLabel2: ' at /CliffLeeCL/Script/SingletonAndManager/EventManager.cs:51'
-        stackLabel1Content:
-          m_Text: EventManager.OnGameOver()
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 174.85715
-        stackLabel1Height: 24.285713
-        stackLabel2Content:
-          m_Text: ' at /CliffLeeCL/Script/SingletonAndManager/EventManager.cs:51'
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 383.42856
-        stackLabel2Height: 24.285713
-        stackSourceLineHeight: 16.285713
-        sourceCode:
-        - '49:   {'
-        - '50:       if (onGameOver != null)'
-        - '51:           onGameOver();'
-        - '52:       Debug.Log("OnGameOver event is invoked!");'
-        - '53:   }'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/CliffLeeCL/Script/SingletonAndManager/GameManager.cs
-        fileNameWithoutAssets: CliffLeeCL/Script/SingletonAndManager/GameManager.cs
-        fileNameWithoutAssetsPlusLineNumber: CliffLeeCL/Script/SingletonAndManager/GameManager.cs:63
-        fileNameWithoutPath: GameManager.cs
-        fileNameWithoutPathPlusLineNumber: GameManager.cs:63
-        fileNamePretty: GameManager
-        instanceID: -1
-        className: GameManager
-        methodName: GameOver
-        namespaceName: CliffLeeCL
-        lineNumberString: 63
-        charNumber: 0
-        stackLabel: GameManager.GameOver()
-        stackLabel2: ' at /CliffLeeCL/Script/SingletonAndManager/GameManager.cs:63'
-        stackLabel1Content:
-          m_Text: GameManager.GameOver()
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 160
-        stackLabel1Height: 24.285713
-        stackLabel2Content:
-          m_Text: ' at /CliffLeeCL/Script/SingletonAndManager/GameManager.cs:63'
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 386.2857
-        stackLabel2Height: 24.285713
-        stackSourceLineHeight: 16.285713
-        sourceCode:
-        - '61:       isGameOver = true;'
-        - '62:       roundTimer.StopTimer();'
-        - '63:       EventManager.Instance.OnGameOver();'
-        - '64:   }'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/Scripts/RecyclePlane.cs
-        fileNameWithoutAssets: Scripts/RecyclePlane.cs
-        fileNameWithoutAssetsPlusLineNumber: Scripts/RecyclePlane.cs:14
-        fileNameWithoutPath: RecyclePlane.cs
-        fileNameWithoutPathPlusLineNumber: RecyclePlane.cs:14
-        fileNamePretty: RecyclePlane
-        instanceID: -1
-        className: RecyclePlane
-        methodName: OnTriggerEnter
-        namespaceName: None
-        lineNumberString: 14
-        charNumber: 0
-        stackLabel: RecyclePlane.OnTriggerEnter()
-        stackLabel2: ' at /Scripts/RecyclePlane.cs:14'
-        stackLabel1Content:
-          m_Text: RecyclePlane.OnTriggerEnter()
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 180.57143
-        stackLabel1Height: 24.285713
-        stackLabel2Content:
-          m_Text: ' at /Scripts/RecyclePlane.cs:14'
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 181.14285
-        stackLabel2Height: 24.285713
-        stackSourceLineHeight: 16.285713
-        sourceCode:
-        - '12:           col.gameObject.SetActive(false);'
-        - '13:           if(col.CompareTag("Player"))'
-        - '14:               GameManager.Instance.GameOver();'
-        - '15:       }'
-        - '16:   }'
-        sourceCodeUpdated: 1
-        showSource: 1
-      ignoredStackEntries: []
-      lastMatchedCount: 1
-      belongsToFilters:
-      - name: Exception
-        isEnabled: 1
-        collapsed: 1
-        itemGUID: c3b34dba-f25b-4b77-a26f-265fbb8c000a
-        filterName: 
-        mainColor: {r: 0.616, g: 0, b: 1, a: 0.7}
-        isStandardFilter: 1
-        isTempFilter: 0
-        filterOnly: 0
-        useAdvancedColors: 1
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 0.616, g: 0, b: 1, a: 0.7}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 1
-        useIconTexture: 0
-        filterFormatVersion: 1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list:
-          - name: 
-            isEnabled: 1
-            collapsed: 0
-            itemGUID: 1ae0d788-8db9-4e38-8fb9-74618c7ea663
-            searchString: <Any>
-            searchType: 1
-            removeSearchStringFromLog: 0
-            logTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: e8c21a5c-ccd9-4ed9-ae7f-426d14d73ab0
-                logType: 4
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: a396a572-c10e-4acd-937f-120bdd70b1a8
-                logType: 7
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-            columnTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 34a7e8c9-25d8-4667-95cc-8527a9e5d3a0
-                columnType: 1
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-            sourceCodeList:
-              list: []
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 3
-          iconType2: 1
-          iconText: X
-          useIconTextFirstLetter: 0
-          useIconLogColor: 0
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 7
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 1
-      belongsToStandardFilters:
-      - name: Exception
-        isEnabled: 1
-        collapsed: 1
-        itemGUID: c3b34dba-f25b-4b77-a26f-265fbb8c000a
-        filterName: 
-        mainColor: {r: 0.616, g: 0, b: 1, a: 0.7}
-        isStandardFilter: 1
-        isTempFilter: 0
-        filterOnly: 0
-        useAdvancedColors: 1
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 0.616, g: 0, b: 1, a: 0.7}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 1
-        useIconTexture: 0
-        filterFormatVersion: 1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list:
-          - name: 
-            isEnabled: 1
-            collapsed: 0
-            itemGUID: 1ae0d788-8db9-4e38-8fb9-74618c7ea663
-            searchString: <Any>
-            searchType: 1
-            removeSearchStringFromLog: 0
-            logTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: e8c21a5c-ccd9-4ed9-ae7f-426d14d73ab0
-                logType: 4
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: a396a572-c10e-4acd-937f-120bdd70b1a8
-                logType: 7
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-            columnTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 34a7e8c9-25d8-4667-95cc-8527a9e5d3a0
-                columnType: 1
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-            sourceCodeList:
-              list: []
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 3
-          iconType2: 1
-          iconText: X
-          useIconTextFirstLetter: 0
-          useIconLogColor: 0
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 7
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 1
       assignedTempFilter:
         name: 
         isEnabled: 1
@@ -8187,7 +7658,7 @@ MonoBehaviour:
         (at Assets/Scripts/Leaderboard.cs:39)
 
         UIController:OnGameOver ()
-        (at Assets/Scripts/UIController.cs:19)
+        (at Assets/Scripts/UIController.cs:25)
 
         CliffLeeCL.EventManager:OnGameOver
         () (at Assets/CliffLeeCL/Script/SingletonAndManager/EventManager.cs:51)
@@ -8211,13 +7682,13 @@ MonoBehaviour:
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 00:02:23.875
-      timeFrame: 1291
-      timeStampDateTimeNow: 00:02:23.875
+      timeStamp: 00:46:53.074
+      timeFrame: 6694
+      timeStampDateTimeNow: 00:46:53.074
       instanceID: 0
       collapsedCount: 0
       cachedHeight: 18.285713
-      cachedHeightLogWidth: 493.85718
+      cachedHeightLogWidth: 461
       stackEntries:
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
@@ -8436,18 +7907,18 @@ MonoBehaviour:
         showSource: 1
       - fileName: Assets/Scripts/UIController.cs
         fileNameWithoutAssets: Scripts/UIController.cs
-        fileNameWithoutAssetsPlusLineNumber: Scripts/UIController.cs:19
+        fileNameWithoutAssetsPlusLineNumber: Scripts/UIController.cs:25
         fileNameWithoutPath: UIController.cs
-        fileNameWithoutPathPlusLineNumber: UIController.cs:19
+        fileNameWithoutPathPlusLineNumber: UIController.cs:25
         fileNamePretty: UIController
         instanceID: -1
         className: UIController
         methodName: OnGameOver
         namespaceName: None
-        lineNumberString: 19
+        lineNumberString: 25
         charNumber: 0
         stackLabel: UIController.OnGameOver()
-        stackLabel2: ' at /Scripts/UIController.cs:19'
+        stackLabel2: ' at /Scripts/UIController.cs:25'
         stackLabel1Content:
           m_Text: 
           m_Image: {fileID: 0}
@@ -8974,7 +8445,7 @@ MonoBehaviour:
         (at Assets/Scripts/Leaderboard.cs:39)
 
         UIController:OnGameOver ()
-        (at Assets/Scripts/UIController.cs:19)
+        (at Assets/Scripts/UIController.cs:25)
 
         CliffLeeCL.EventManager:OnGameOver
         () (at Assets/CliffLeeCL/Script/SingletonAndManager/EventManager.cs:51)
@@ -8998,13 +8469,13 @@ MonoBehaviour:
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 00:02:23.897
-      timeFrame: 1291
-      timeStampDateTimeNow: 00:02:23.897
+      timeStamp: 00:46:53.086
+      timeFrame: 6694
+      timeStampDateTimeNow: 00:46:53.086
       instanceID: 0
       collapsedCount: 0
       cachedHeight: 18.285713
-      cachedHeightLogWidth: 493.85718
+      cachedHeightLogWidth: 461
       stackEntries:
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
@@ -9223,18 +8694,18 @@ MonoBehaviour:
         showSource: 1
       - fileName: Assets/Scripts/UIController.cs
         fileNameWithoutAssets: Scripts/UIController.cs
-        fileNameWithoutAssetsPlusLineNumber: Scripts/UIController.cs:19
+        fileNameWithoutAssetsPlusLineNumber: Scripts/UIController.cs:25
         fileNameWithoutPath: UIController.cs
-        fileNameWithoutPathPlusLineNumber: UIController.cs:19
+        fileNameWithoutPathPlusLineNumber: UIController.cs:25
         fileNamePretty: UIController
         instanceID: -1
         className: UIController
         methodName: OnGameOver
         namespaceName: None
-        lineNumberString: 19
+        lineNumberString: 25
         charNumber: 0
         stackLabel: UIController.OnGameOver()
-        stackLabel2: ' at /Scripts/UIController.cs:19'
+        stackLabel2: ' at /Scripts/UIController.cs:25'
         stackLabel1Content:
           m_Text: 
           m_Image: {fileID: 0}
@@ -9757,13 +9228,13 @@ MonoBehaviour:
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 00:02:23.898
-      timeFrame: 1291
-      timeStampDateTimeNow: 00:02:23.898
+      timeStamp: 00:46:53.086
+      timeFrame: 6694
+      timeStampDateTimeNow: 00:46:53.086
       instanceID: 0
       collapsedCount: 0
       cachedHeight: 18.285713
-      cachedHeightLogWidth: 493.85718
+      cachedHeightLogWidth: 461
       stackEntries:
       - fileName: Assets/CliffLeeCL/Script/SingletonAndManager/EventManager.cs
         fileNameWithoutAssets: CliffLeeCL/Script/SingletonAndManager/EventManager.cs
@@ -10240,7 +9711,7 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 3
-      logOutputHeight: 26
+      logOutputHeight: -1
       listIndex: 3
       nativeIndex: 3
       nativeIdentifier: 0
@@ -10283,13 +9754,13 @@ MonoBehaviour:
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 00:02:23.898
-      timeFrame: 1291
-      timeStampDateTimeNow: 00:02:23.898
+      timeStamp: 00:46:53.086
+      timeFrame: 6694
+      timeStampDateTimeNow: 00:46:53.086
       instanceID: 0
       collapsedCount: 0
       cachedHeight: 18.285713
-      cachedHeightLogWidth: 493.85718
+      cachedHeightLogWidth: 461
       stackEntries:
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
@@ -10307,7 +9778,7 @@ MonoBehaviour:
         stackLabel: LootLockerSDKManager.DebugMessage()
         stackLabel2: ' at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs:95'
         stackLabel1Content:
-          m_Text: LootLockerSDKManager.DebugMessage()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 246.85715
@@ -10338,7 +9809,7 @@ MonoBehaviour:
         stackLabel: LootLockerServerRequest.CallAPI()
         stackLabel2: ' at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerServerRequest.cs:124'
         stackLabel1Content:
-          m_Text: LootLockerServerRequest.CallAPI()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 207.42857
@@ -10369,7 +9840,7 @@ MonoBehaviour:
         stackLabel: LootLockerAPIManager.GuestSession()
         stackLabel2: ' at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/Requests/LootLockerSessionRequest.cs:183'
         stackLabel1Content:
-          m_Text: LootLockerAPIManager.GuestSession()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 229.71428
@@ -10400,7 +9871,7 @@ MonoBehaviour:
         stackLabel: LootLockerSDKManager.StartGuestSession()
         stackLabel2: ' at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs:164'
         stackLabel1Content:
-          m_Text: LootLockerSDKManager.StartGuestSession()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 265.14285
@@ -10430,7 +9901,7 @@ MonoBehaviour:
         stackLabel: Leaderboard.StartGuestSession()
         stackLabel2: ' at /Scripts/Leaderboard.cs:76'
         stackLabel1Content:
-          m_Text: Leaderboard.StartGuestSession()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 198.85715
@@ -10460,7 +9931,7 @@ MonoBehaviour:
         stackLabel: Leaderboard.Start()
         stackLabel2: ' at /Scripts/Leaderboard.cs:29'
         stackLabel1Content:
-          m_Text: Leaderboard.Start()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 118.85714
@@ -10892,13 +10363,13 @@ MonoBehaviour:
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 00:02:23.923
-      timeFrame: 1292
-      timeStampDateTimeNow: 00:02:23.923
+      timeStamp: 00:46:53.106
+      timeFrame: 6695
+      timeStampDateTimeNow: 00:46:53.106
       instanceID: 0
       collapsedCount: 0
-      cachedHeight: 18.285713
-      cachedHeightLogWidth: 493.85718
+      cachedHeight: 32.571426
+      cachedHeightLogWidth: 461
       stackEntries:
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
@@ -11409,13 +10880,13 @@ MonoBehaviour:
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 00:02:23.924
-      timeFrame: 1292
-      timeStampDateTimeNow: 00:02:23.924
+      timeStamp: 00:46:53.106
+      timeFrame: 6695
+      timeStampDateTimeNow: 00:46:53.106
       instanceID: 0
       collapsedCount: 0
       cachedHeight: 18.285713
-      cachedHeightLogWidth: 493.85718
+      cachedHeightLogWidth: 461
       stackEntries:
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
@@ -11894,7 +11365,7 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 6
-      logOutputHeight: 69
+      logOutputHeight: -1
       listIndex: 6
       nativeIndex: 6
       nativeIdentifier: 0
@@ -11930,13 +11401,13 @@ MonoBehaviour:
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 00:02:23.924
-      timeFrame: 1292
-      timeStampDateTimeNow: 00:02:23.924
+      timeStamp: 00:46:53.106
+      timeFrame: 6695
+      timeStampDateTimeNow: 00:46:53.106
       instanceID: 0
       collapsedCount: 0
       cachedHeight: 61.142857
-      cachedHeightLogWidth: 493.85718
+      cachedHeightLogWidth: 461
       stackEntries:
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
@@ -11954,7 +11425,7 @@ MonoBehaviour:
         stackLabel: LootLockerSDKManager.DebugMessage()
         stackLabel2: ' at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs:95'
         stackLabel1Content:
-          m_Text: LootLockerSDKManager.DebugMessage()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 246.85715
@@ -11985,7 +11456,7 @@ MonoBehaviour:
         stackLabel: LootLockerBaseServerAPI.CreateWebRequest()
         stackLabel2: ' at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerBaseServerAPI.cs:287'
         stackLabel1Content:
-          m_Text: LootLockerBaseServerAPI.CreateWebRequest()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 281.14285
@@ -12016,7 +11487,7 @@ MonoBehaviour:
         stackLabel: LootLockerBaseServerAPI/<>c__DisplayClass8_0/<<SendRequest>g__coroutine|0>d.MoveNext()
         stackLabel2: ' at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerBaseServerAPI.cs:74'
         stackLabel1Content:
-          m_Text: LootLockerBaseServerAPI/<>c__DisplayClass8_0/<<SendRequest>g__coroutine|0>d.MoveNext()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 574.2857
@@ -12046,7 +11517,7 @@ MonoBehaviour:
         stackLabel: SetupCoroutine.InvokeMoveNext()
         stackLabel2: 
         stackLabel1Content:
-          m_Text: SetupCoroutine.InvokeMoveNext()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 201.14285
@@ -12446,18 +11917,18 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 7
-      logOutputHeight: 97
+      logOutputHeight: -1
       listIndex: 7
       nativeIndex: 7
       nativeIdentifier: 0
       originalLog: 'Server Response: GET leaderboards/2476/list?count=10 completed
-        in 0.3355 secs.
+        in 1.3987 secs.
 
-        Response: {"pagination":{"total":3,"next_cursor":0,"previous_cursor":null},"items":[{"rank":1,"member_id":"CL","score":332530000,"player":null,"metadata":""},{"rank":2,"member_id":"Roger","score":122540000,"player":null,"metadata":""},{"rank":3,"member_id":"?","score":26460000,"player":null,"metadata":""}]}'
+        Response: {"pagination":{"total":5,"next_cursor":0,"previous_cursor":null},"items":[{"rank":1,"member_id":"TedRay","score":340400000,"player":null,"metadata":""},{"rank":2,"member_id":"CL","score":332530000,"player":null,"metadata":""},{"rank":3,"member_id":"Roger","score":122540000,"player":null,"metadata":""},{"rank":4,"member_id":"1234251","score":30980000,"player":null,"metadata":""},{"rank":5,"member_id":"?","score":26460000,"player":null,"metadata":""}]}'
       originalStackTrace: 'Server Response: GET leaderboards/2476/list?count=10 completed
-        in 0.3355 secs.
+        in 1.3987 secs.
 
-        Response: {"pagination":{"total":3,"next_cursor":0,"previous_cursor":null},"items":[{"rank":1,"member_id":"CL","score":332530000,"player":null,"metadata":""},{"rank":2,"member_id":"Roger","score":122540000,"player":null,"metadata":""},{"rank":3,"member_id":"?","score":26460000,"player":null,"metadata":""}]}
+        Response: {"pagination":{"total":5,"next_cursor":0,"previous_cursor":null},"items":[{"rank":1,"member_id":"TedRay","score":340400000,"player":null,"metadata":""},{"rank":2,"member_id":"CL","score":332530000,"player":null,"metadata":""},{"rank":3,"member_id":"Roger","score":122540000,"player":null,"metadata":""},{"rank":4,"member_id":"1234251","score":30980000,"player":null,"metadata":""},{"rank":5,"member_id":"?","score":26460000,"player":null,"metadata":""}]}
 
         UnityEngine.Debug:Log
         (object)
@@ -12477,29 +11948,33 @@ MonoBehaviour:
       nativeLineNumber: 95
       watchName: 
       logText: 'Server Response: GET leaderboards/2476/list?count=10 completed in
-        0.3355 secs.
+        1.3987 secs.
 
-        Response: {"pagination":{"total":3,"next_cursor":0,"previous_cursor":null},"items":[{"rank":1,"member_id":"CL","score":332530000,"player":null,"metadata":""},{"rank":2,"member_id":"Roger","score":122540000,"player":null,"metadata":""},{"rank":3,"member_id":"?","score":26460000,"player":null,"metadata":""}]}'
+        Response: {"pagination":{"total":5,"next_cursor":0,"previous_cursor":null},"items":[{"rank":1,"member_id":"TedRay","score":340400000,"player":null,"metadata":""},{"rank":2,"member_id":"CL","score":332530000,"player":null,"metadata":""},{"rank":3,"member_id":"Roger","score":122540000,"player":null,"metadata":""},{"rank":4,"member_id":"1234251","score":30980000,"player":null,"metadata":""},{"rank":5,"member_id":"?","score":26460000,"player":null,"metadata":""}]}'
       logTruncatedText: 'Server Response: GET leaderboards/2476/list?count=10 completed
-        in 0.3355 secs.
+        in 1.3987 secs.
 
-        Response: {"pagination":{"total":3,"next_cursor":0,"previous_cursor":null},"items":[{"rank":1,"member_id":"CL","score":332530000,"player":null,"metadata":""},{"rank":2,"member_id":"Roger","score":122540000,"player":null,"metadata":""},{"rank":3,"member_id":"?","score":26460000,"player":null,"metadata":""}]}'
+        Response: {"pagination":{"total":5,"next_cursor":0,"previous_cursor":null},"items":[{"rank":1,"member_id":"TedRay","score":340400000,"player":null,"metadata":""},{"rank":2,"member_id":"CL","score":332530000,"player":null,"metadata":""},{"rank":3,"member_id":"Roger","score":122540000,"player":null,"metadata":""},{"rank":4,"member_id":"1234251","score":30980000,"player":null,"metadata":""},{"rank":5,"member_id":"?","sco
+
+        ...'
       logColumnText: 'Server Response: GET leaderboards/2476/list?count=10 completed
-        in 0.3355 secs.
+        in 1.3987 secs.
 
-        Response: {"pagination":{"total":3,"next_cursor":0,"previous_cursor":null},"items":[{"rank":1,"member_id":"CL","score":332530000,"player":null,"metadata":""},{"rank":2,"member_id":"Roger","score":122540000,"player":null,"metadata":""},{"rank":3,"member_id":"?","score":26460000,"player":null,"metadata":""}]}'
+        Response: {"pagination":{"total":5,"next_cursor":0,"previous_cursor":null},"items":[{"rank":1,"member_id":"TedRay","score":340400000,"player":null,"metadata":""},{"rank":2,"member_id":"CL","score":332530000,"player":null,"metadata":""},{"rank":3,"member_id":"Roger","score":122540000,"player":null,"metadata":""},{"rank":4,"member_id":"1234251","score":30980000,"player":null,"metadata":""},{"rank":5,"member_id":"?","sco
+
+        ...'
       fileName: 
       className: 
       namespaceName: 
       lineCount: 2
       hasSourceCode: 0
-      timeStamp: 00:02:24.281
-      timeFrame: 1333
-      timeStampDateTimeNow: 00:02:24.281
+      timeStamp: 00:46:54.507
+      timeFrame: 7029
+      timeStampDateTimeNow: 00:46:54.507
       instanceID: 0
       collapsedCount: 0
-      cachedHeight: 89.71429
-      cachedHeightLogWidth: 493.85718
+      cachedHeight: 132.57143
+      cachedHeightLogWidth: 461
       stackEntries:
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
@@ -12517,7 +11992,7 @@ MonoBehaviour:
         stackLabel: LootLockerSDKManager.DebugMessage()
         stackLabel2: ' at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs:95'
         stackLabel1Content:
-          m_Text: LootLockerSDKManager.DebugMessage()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 246.85715
@@ -12548,7 +12023,7 @@ MonoBehaviour:
         stackLabel: LootLockerBaseServerAPI/<>c__DisplayClass8_0/<<SendRequest>g__coroutine|0>d.MoveNext()
         stackLabel2: ' at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerBaseServerAPI.cs:101'
         stackLabel1Content:
-          m_Text: LootLockerBaseServerAPI/<>c__DisplayClass8_0/<<SendRequest>g__coroutine|0>d.MoveNext()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 574.2857
@@ -12578,7 +12053,7 @@ MonoBehaviour:
         stackLabel: SetupCoroutine.InvokeMoveNext()
         stackLabel2: 
         stackLabel1Content:
-          m_Text: SetupCoroutine.InvokeMoveNext()
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
         stackLabel1Width: 201.14285
@@ -12982,18 +12457,18 @@ MonoBehaviour:
       listIndex: 8
       nativeIndex: 8
       nativeIdentifier: 0
-      originalLog: "Server Response: POST v2/session/guest completed in 0.7247 secs.\nResponse:
+      originalLog: "Server Response: POST v2/session/guest completed in 1.8476 secs.\nResponse:
         {\n    \"success\": true,\n    \"player_id\": 1966465,\n    \"player_identifier\":
         \"627f4939-81f6-46e7-a69e-f6487de1dd4c\",\n    \"public_uid\": \"EFCA77GS\",\n   
         \"seen_before\": true,\n    \"check_grant_notifications\": false,\n    \"check_deactivation_notifications\":
         false,\n    \"check_dlcs\": [],\n    \"public\": true,\n    \"session_token\":
-        \"9395fad656bba9ef123e688067566faf1d9e64cd\"\n}"
-      originalStackTrace: "Server Response: POST v2/session/guest completed in 0.7247
+        \"d37275800c8d7bf71ffb50fa840c6100f2a9629d\"\n}"
+      originalStackTrace: "Server Response: POST v2/session/guest completed in 1.8476
         secs.\nResponse: {\n    \"success\": true,\n    \"player_id\": 1966465,\n   
         \"player_identifier\": \"627f4939-81f6-46e7-a69e-f6487de1dd4c\",\n    \"public_uid\":
         \"EFCA77GS\",\n    \"seen_before\": true,\n    \"check_grant_notifications\":
         false,\n    \"check_deactivation_notifications\": false,\n    \"check_dlcs\":
-        [],\n    \"public\": true,\n    \"session_token\": \"9395fad656bba9ef123e688067566faf1d9e64cd\"\n}\nUnityEngine.Debug:Log
+        [],\n    \"public\": true,\n    \"session_token\": \"d37275800c8d7bf71ffb50fa840c6100f2a9629d\"\n}\nUnityEngine.Debug:Log
         (object)\nLootLocker.Requests.LootLockerSDKManager:DebugMessage (string,bool)
         (at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs:95)\nLootLocker.LootLockerBaseServerAPI/<>c__DisplayClass8_0/<<SendRequest>g__coroutine|0>d:MoveNext
         () (at C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerBaseServerAPI.cs:101)\nUnityEngine.SetupCoroutine:InvokeMoveNext
@@ -13002,36 +12477,36 @@ MonoBehaviour:
       nativeFileNamePretty: 
       nativeLineNumber: 95
       watchName: 
-      logText: "Server Response: POST v2/session/guest completed in 0.7247 secs.\nResponse:
+      logText: "Server Response: POST v2/session/guest completed in 1.8476 secs.\nResponse:
         {\n    \"success\": true,\n    \"player_id\": 1966465,\n    \"player_identifier\":
         \"627f4939-81f6-46e7-a69e-f6487de1dd4c\",\n    \"public_uid\": \"EFCA77GS\",\n   
         \"seen_before\": true,\n    \"check_grant_notifications\": false,\n    \"check_deactivation_notifications\":
         false,\n    \"check_dlcs\": [],\n    \"public\": true,\n    \"session_token\":
-        \"9395fad656bba9ef123e688067566faf1d9e64cd\"\n}"
-      logTruncatedText: "Server Response: POST v2/session/guest completed in 0.7247
+        \"d37275800c8d7bf71ffb50fa840c6100f2a9629d\"\n}"
+      logTruncatedText: "Server Response: POST v2/session/guest completed in 1.8476
         secs.\nResponse: {\n    \"success\": true,\n    \"player_id\": 1966465,\n   
         \"player_identifier\": \"627f4939-81f6-46e7-a69e-f6487de1dd4c\",\n    \"public_uid\":
         \"EFCA77GS\",\n    \"seen_before\": true,\n    \"check_grant_notifications\":
         false,\n    \"check_deactivation_notifications\": false,\n    \"check_dlcs\":
-        [],\n    \"public\": true,\n    \"session_token\": \"9395fad656bba9ef123e688067566faf1d9e64cd\"\n}"
-      logColumnText: "Server Response: POST v2/session/guest completed in 0.7247
+        [],\n    \"public\": true,\n    \"session_token\": \"d37275800c8d7bf71ffb50fa840c6100f2a9629d\"\n}"
+      logColumnText: "Server Response: POST v2/session/guest completed in 1.8476
         secs.\nResponse: {\n    \"success\": true,\n    \"player_id\": 1966465,\n   
         \"player_identifier\": \"627f4939-81f6-46e7-a69e-f6487de1dd4c\",\n    \"public_uid\":
         \"EFCA77GS\",\n    \"seen_before\": true,\n    \"check_grant_notifications\":
         false,\n    \"check_deactivation_notifications\": false,\n    \"check_dlcs\":
-        [],\n    \"public\": true,\n    \"session_token\": \"9395fad656bba9ef123e688067566faf1d9e64cd\"\n}"
+        [],\n    \"public\": true,\n    \"session_token\": \"d37275800c8d7bf71ffb50fa840c6100f2a9629d\"\n}"
       fileName: 
       className: 
       namespaceName: 
       lineCount: 13
       hasSourceCode: 0
-      timeStamp: 00:02:24.606
-      timeFrame: 1364
-      timeStampDateTimeNow: 00:02:24.606
+      timeStamp: 00:46:54.924
+      timeFrame: 7111
+      timeStampDateTimeNow: 00:46:54.924
       instanceID: 0
       collapsedCount: 0
       cachedHeight: 189.71428
-      cachedHeightLogWidth: 493.85718
+      cachedHeightLogWidth: 461
       stackEntries:
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
@@ -13556,14 +13031,14 @@ MonoBehaviour:
       className: 
       namespaceName: 
       lineCount: 1
-      hasSourceCode: 0
-      timeStamp: 00:02:24.606
-      timeFrame: 1364
-      timeStampDateTimeNow: 00:02:24.606
+      hasSourceCode: 1
+      timeStamp: 00:46:54.924
+      timeFrame: 7111
+      timeStampDateTimeNow: 00:46:54.924
       instanceID: 0
       collapsedCount: 0
       cachedHeight: 18.285713
-      cachedHeightLogWidth: 493.85718
+      cachedHeightLogWidth: 461
       stackEntries:
       - fileName: Assets/Scripts/Leaderboard.cs
         fileNameWithoutAssets: Scripts/Leaderboard.cs
@@ -13592,8 +13067,13 @@ MonoBehaviour:
         stackLabel2Width: 180.57143
         stackLabel2Height: 24.285713
         stackSourceLineHeight: 16.285713
-        sourceCode: []
-        sourceCodeUpdated: 0
+        sourceCode:
+        - '74:   void StartGuestSession()'
+        - '75:   {'
+        - '76:       LootLockerSDKManager.StartGuestSession((response) => { Debug.Log("Login
+          success!"); });'
+        - '77:   }'
+        sourceCodeUpdated: 1
         showSource: 1
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/LootLockerSDKManager.cs
@@ -13623,8 +13103,12 @@ MonoBehaviour:
         stackLabel2Width: 777.1429
         stackLabel2Height: 24.285713
         stackSourceLineHeight: 16.285713
-        sourceCode: []
-        sourceCodeUpdated: 0
+        sourceCode:
+        - '169:           PlayerPrefs.Save();'
+        - '171:           onComplete(response);'
+        - '172:       });'
+        - '173:   }'
+        sourceCodeUpdated: 1
         showSource: 1
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/Requests/LootLockerSessionRequest.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Game/Requests/LootLockerSessionRequest.cs
@@ -13654,8 +13138,13 @@ MonoBehaviour:
         stackLabel2Width: 857.7143
         stackLabel2Height: 24.285713
         stackSourceLineHeight: 16.285713
-        sourceCode: []
-        sourceCodeUpdated: 0
+        sourceCode:
+        - '193:       response.success = serverResponse.success;'
+        - '194:       response.Error = serverResponse.Error; response.statusCode
+          = serverResponse.statusCode;'
+        - '195:       onComplete?.Invoke(response);'
+        - '197:   }, false);'
+        sourceCodeUpdated: 1
         showSource: 1
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerServerRequest.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerServerRequest.cs
@@ -13685,8 +13174,14 @@ MonoBehaviour:
         stackLabel2Width: 789.7143
         stackLabel2Height: 24.285713
         stackSourceLineHeight: 16.285713
-        sourceCode: []
-        sourceCodeUpdated: 0
+        sourceCode:
+        - '140:       new LootLockerServerRequest(endPoint, httpMethod, body, headers,
+          callerRole: callerRole).Send((response) =>'
+        - '141:        {'
+        - '142:            onComplete?.Invoke(response);'
+        - '143:        });'
+        - '144:   }'
+        sourceCodeUpdated: 1
         showSource: 1
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerServerRequest.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerServerRequest.cs
@@ -13716,8 +13211,13 @@ MonoBehaviour:
         stackLabel2Width: 790.2857
         stackLabel2Height: 24.285713
         stackSourceLineHeight: 16.285713
-        sourceCode: []
-        sourceCodeUpdated: 0
+        sourceCode:
+        - '273:       LootLockerBaseServerAPI.I.SendRequest(this, (response) =>'
+        - '274:       {'
+        - '275:           OnServerResponse?.Invoke(response);'
+        - '276:       });'
+        - '277:   }'
+        sourceCodeUpdated: 1
         showSource: 1
       - fileName: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerBaseServerAPI.cs
         fileNameWithoutAssets: C:/CliffLeeCL/Game development/Unity Asset Package/lootlocker-unity-sdk-main/Runtime/Client/LootLockerBaseServerAPI.cs
@@ -13747,8 +13247,12 @@ MonoBehaviour:
         stackLabel2Width: 790.8571
         stackLabel2Height: 24.285713
         stackSourceLineHeight: 16.285713
-        sourceCode: []
-        sourceCodeUpdated: 0
+        sourceCode:
+        - '182:       response.hasError = false;'
+        - '183:       response.text = webRequest.downloadHandler.text;'
+        - '184:       OnServerResponse?.Invoke(response);'
+        - '185:   }'
+        sourceCodeUpdated: 1
         showSource: 1
       - fileName: None
         fileNameWithoutAssets: None
@@ -13778,7 +13282,7 @@ MonoBehaviour:
         stackLabel2Height: 24.285713
         stackSourceLineHeight: 16.285713
         sourceCode: []
-        sourceCodeUpdated: 0
+        sourceCodeUpdated: 1
         showSource: 1
       ignoredStackEntries: []
       lastMatchedCount: 1
@@ -14158,601 +13662,7 @@ MonoBehaviour:
         showInToolbar: 1
         hideLabelInToolbar: 0
         hideWhenNoMatches: 0
-    - logType: 4
-      ignore: 0
-      processed: 1
-      tempFilterProcessed: 1
-      remoteEndPoint: Local
-      logPanelVisible: 1
-      logPanelIndex: 10
-      logOutputHeight: 54
-      listIndex: 10
-      nativeIndex: 10
-      nativeIdentifier: 0
-      originalLog: 'MissingReferenceException: The object of type ''GameObject''
-        has been destroyed but you are still trying to access it.
-
-        Your script
-        should either check if it is null or you should not destroy the object.'
-      originalStackTrace: 'MissingReferenceException: The object of type ''GameObject''
-        has been destroyed but you are still trying to access it.
-
-        Your script
-        should either check if it is null or you should not destroy the object.
-
-        UIController.OnGameOver
-        () (at Assets/Scripts/UIController.cs:19)
-
-        CliffLeeCL.EventManager.OnGameOver
-        () (at Assets/CliffLeeCL/Script/SingletonAndManager/EventManager.cs:51)
-
-        CliffLeeCL.GameManager.GameOver
-        () (at Assets/CliffLeeCL/Script/SingletonAndManager/GameManager.cs:63)
-
-        RecyclePlane.OnTriggerEnter
-        (UnityEngine.Collider col) (at Assets/Scripts/RecyclePlane.cs:14)
-
-'
-      nativeFileName: 
-      nativeFileNamePretty: 
-      nativeLineNumber: 0
-      watchName: 
-      logText: 'MissingReferenceException: The object of type ''GameObject'' has
-        been destroyed but you are still trying to access it.
-
-        Your script
-        should either check if it is null or you should not destroy the object.'
-      logTruncatedText: 'MissingReferenceException: The object of type ''GameObject''
-        has been destroyed but you are still trying to access it.
-
-        Your script
-        should either check if it is null or you should not destroy the object.'
-      logColumnText: 'MissingReferenceException: The object of type ''GameObject''
-        has been destroyed but you are still trying to access it.
-
-        Your script
-        should either check if it is null or you should not destroy the object.'
-      fileName: 
-      className: 
-      namespaceName: 
-      lineCount: 2
-      hasSourceCode: 1
-      timeStamp: 00:03:16.885
-      timeFrame: 2325
-      timeStampDateTimeNow: 00:03:16.885
-      instanceID: 171846
-      collapsedCount: 0
-      cachedHeight: 46.857143
-      cachedHeightLogWidth: 493.85718
-      stackEntries:
-      - fileName: Assets/Scripts/UIController.cs
-        fileNameWithoutAssets: Scripts/UIController.cs
-        fileNameWithoutAssetsPlusLineNumber: Scripts/UIController.cs:19
-        fileNameWithoutPath: UIController.cs
-        fileNameWithoutPathPlusLineNumber: UIController.cs:19
-        fileNamePretty: UIController
-        instanceID: -1
-        className: UIController
-        methodName: OnGameOver
-        namespaceName: None
-        lineNumberString: 19
-        charNumber: 0
-        stackLabel: UIController.OnGameOver()
-        stackLabel2: ' at /Scripts/UIController.cs:19'
-        stackLabel1Content:
-          m_Text: UIController.OnGameOver()
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 160.57143
-        stackLabel1Height: 24.285713
-        stackLabel2Content:
-          m_Text: ' at /Scripts/UIController.cs:19'
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 174.28572
-        stackLabel2Height: 24.285713
-        stackSourceLineHeight: 16.285713
-        sourceCode:
-        - '17:   {'
-        - '18:       foreach (var obj in openObjOnGameOver)'
-        - '19:           obj.SetActive(true);'
-        - '20:       foreach (var obj in closeObjOnGameOver)'
-        - '21:           obj.SetActive(false);'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/CliffLeeCL/Script/SingletonAndManager/EventManager.cs
-        fileNameWithoutAssets: CliffLeeCL/Script/SingletonAndManager/EventManager.cs
-        fileNameWithoutAssetsPlusLineNumber: CliffLeeCL/Script/SingletonAndManager/EventManager.cs:51
-        fileNameWithoutPath: EventManager.cs
-        fileNameWithoutPathPlusLineNumber: EventManager.cs:51
-        fileNamePretty: EventManager
-        instanceID: -1
-        className: EventManager
-        methodName: OnGameOver
-        namespaceName: CliffLeeCL
-        lineNumberString: 51
-        charNumber: 0
-        stackLabel: EventManager.OnGameOver()
-        stackLabel2: ' at /CliffLeeCL/Script/SingletonAndManager/EventManager.cs:51'
-        stackLabel1Content:
-          m_Text: EventManager.OnGameOver()
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 174.85715
-        stackLabel1Height: 24.285713
-        stackLabel2Content:
-          m_Text: ' at /CliffLeeCL/Script/SingletonAndManager/EventManager.cs:51'
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 383.42856
-        stackLabel2Height: 24.285713
-        stackSourceLineHeight: 16.285713
-        sourceCode:
-        - '49:   {'
-        - '50:       if (onGameOver != null)'
-        - '51:           onGameOver();'
-        - '52:       Debug.Log("OnGameOver event is invoked!");'
-        - '53:   }'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/CliffLeeCL/Script/SingletonAndManager/GameManager.cs
-        fileNameWithoutAssets: CliffLeeCL/Script/SingletonAndManager/GameManager.cs
-        fileNameWithoutAssetsPlusLineNumber: CliffLeeCL/Script/SingletonAndManager/GameManager.cs:63
-        fileNameWithoutPath: GameManager.cs
-        fileNameWithoutPathPlusLineNumber: GameManager.cs:63
-        fileNamePretty: GameManager
-        instanceID: -1
-        className: GameManager
-        methodName: GameOver
-        namespaceName: CliffLeeCL
-        lineNumberString: 63
-        charNumber: 0
-        stackLabel: GameManager.GameOver()
-        stackLabel2: ' at /CliffLeeCL/Script/SingletonAndManager/GameManager.cs:63'
-        stackLabel1Content:
-          m_Text: GameManager.GameOver()
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 160
-        stackLabel1Height: 24.285713
-        stackLabel2Content:
-          m_Text: ' at /CliffLeeCL/Script/SingletonAndManager/GameManager.cs:63'
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 386.2857
-        stackLabel2Height: 24.285713
-        stackSourceLineHeight: 16.285713
-        sourceCode:
-        - '61:       isGameOver = true;'
-        - '62:       roundTimer.StopTimer();'
-        - '63:       EventManager.Instance.OnGameOver();'
-        - '64:   }'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/Scripts/RecyclePlane.cs
-        fileNameWithoutAssets: Scripts/RecyclePlane.cs
-        fileNameWithoutAssetsPlusLineNumber: Scripts/RecyclePlane.cs:14
-        fileNameWithoutPath: RecyclePlane.cs
-        fileNameWithoutPathPlusLineNumber: RecyclePlane.cs:14
-        fileNamePretty: RecyclePlane
-        instanceID: -1
-        className: RecyclePlane
-        methodName: OnTriggerEnter
-        namespaceName: None
-        lineNumberString: 14
-        charNumber: 0
-        stackLabel: RecyclePlane.OnTriggerEnter()
-        stackLabel2: ' at /Scripts/RecyclePlane.cs:14'
-        stackLabel1Content:
-          m_Text: RecyclePlane.OnTriggerEnter()
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 180.57143
-        stackLabel1Height: 24.285713
-        stackLabel2Content:
-          m_Text: ' at /Scripts/RecyclePlane.cs:14'
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 181.14285
-        stackLabel2Height: 24.285713
-        stackSourceLineHeight: 16.285713
-        sourceCode:
-        - '12:           col.gameObject.SetActive(false);'
-        - '13:           if(col.CompareTag("Player"))'
-        - '14:               GameManager.Instance.GameOver();'
-        - '15:       }'
-        - '16:   }'
-        sourceCodeUpdated: 1
-        showSource: 1
-      ignoredStackEntries: []
-      lastMatchedCount: 1
-      belongsToFilters:
-      - name: Exception
-        isEnabled: 1
-        collapsed: 1
-        itemGUID: c3b34dba-f25b-4b77-a26f-265fbb8c000a
-        filterName: 
-        mainColor: {r: 0.616, g: 0, b: 1, a: 0.7}
-        isStandardFilter: 1
-        isTempFilter: 0
-        filterOnly: 0
-        useAdvancedColors: 1
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 0.616, g: 0, b: 1, a: 0.7}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 1
-        useIconTexture: 0
-        filterFormatVersion: 1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list:
-          - name: 
-            isEnabled: 1
-            collapsed: 0
-            itemGUID: 1ae0d788-8db9-4e38-8fb9-74618c7ea663
-            searchString: <Any>
-            searchType: 1
-            removeSearchStringFromLog: 0
-            logTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: e8c21a5c-ccd9-4ed9-ae7f-426d14d73ab0
-                logType: 4
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: a396a572-c10e-4acd-937f-120bdd70b1a8
-                logType: 7
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-            columnTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 34a7e8c9-25d8-4667-95cc-8527a9e5d3a0
-                columnType: 1
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-            sourceCodeList:
-              list: []
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 3
-          iconType2: 1
-          iconText: X
-          useIconTextFirstLetter: 0
-          useIconLogColor: 0
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 7
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 1
-      belongsToStandardFilters:
-      - name: Exception
-        isEnabled: 1
-        collapsed: 1
-        itemGUID: c3b34dba-f25b-4b77-a26f-265fbb8c000a
-        filterName: 
-        mainColor: {r: 0.616, g: 0, b: 1, a: 0.7}
-        isStandardFilter: 1
-        isTempFilter: 0
-        filterOnly: 0
-        useAdvancedColors: 1
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 0.616, g: 0, b: 1, a: 0.7}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 1
-        useIconTexture: 0
-        filterFormatVersion: 1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list:
-          - name: 
-            isEnabled: 1
-            collapsed: 0
-            itemGUID: 1ae0d788-8db9-4e38-8fb9-74618c7ea663
-            searchString: <Any>
-            searchType: 1
-            removeSearchStringFromLog: 0
-            logTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: e8c21a5c-ccd9-4ed9-ae7f-426d14d73ab0
-                logType: 4
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: a396a572-c10e-4acd-937f-120bdd70b1a8
-                logType: 7
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-            columnTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 34a7e8c9-25d8-4667-95cc-8527a9e5d3a0
-                columnType: 1
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-            sourceCodeList:
-              list: []
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 3
-          iconType2: 1
-          iconText: X
-          useIconTextFirstLetter: 0
-          useIconLogColor: 0
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 7
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 1
-      assignedTempFilter:
-        name: 
-        isEnabled: 1
-        collapsed: 0
-        itemGUID: 
-        filterName: 
-        mainColor: {r: 1, g: 1, b: 1, a: 1}
-        isStandardFilter: 0
-        isTempFilter: 0
-        filterOnly: 0
-        useAdvancedColors: 0
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 0
-        useIconTexture: 0
-        filterFormatVersion: -1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list: []
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14841,7 +13751,7 @@ MonoBehaviour:
       availableCategories: []
     m_SelectedOption: 0
   m_EditModeTestListGUI:
-    m_Window: {fileID: 17}
+    m_Window: {fileID: 18}
     m_NewResultList:
     - id: 1000
       uniqueId: '[LD50][suite]'
@@ -14891,7 +13801,7 @@ MonoBehaviour:
       selectedCategoryMask: 0
       availableCategories:
       - Uncategorized
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14919,7 +13829,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &19
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14939,10 +13849,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1173.143
+    x: 1190.8572
     y: 72.571434
-    width: 288.71432
-    height: 344.7143
+    width: 270.14285
+    height: 404.7143
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -14960,7 +13870,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &20
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14980,10 +13890,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 924.00006
-    y: 268.57144
-    width: 247.14285
-    height: 148.7143
+    x: 956.00006
+    y: 300.57144
+    width: 232.85715
+    height: 176.7143
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -15001,22 +13911,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Animation
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Animation
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\CliffLeeCL\Unity Projects\LD50\LD50
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 546.7143}
-    m_SelectedIDs: e06e0000
-    m_LastClickedID: 28384
-    m_ExpandedIDs: 00000000a66e0000a86e0000aa6e0000ac6e0000ae6e0000b06e0000b26e0000b46e0000b66e0000b86e0000ba6e0000bc6e0000c66e000000ca9a3b
+    scrollPos: {x: 0, y: 35.285706}
+    m_SelectedIDs: 0cc80100
+    m_LastClickedID: 116748
+    m_ExpandedIDs: 00000000786f00007a6f00007c6f00007e6f0000806f0000826f0000846f0000866f0000886f00008a6f00008c6f00008e6f0000e86f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -15044,7 +13954,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a66e0000a86e0000aa6e0000ac6e0000ae6e0000b06e0000b26e0000b46e0000b66e0000b86e0000ba6e0000bc6e0000
+    m_ExpandedIDs: 00000000786f00007a6f00007c6f00007e6f0000806f0000826f0000846f0000866f0000886f00008a6f00008c6f00008e6f0000906f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -15072,21 +13982,21 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000000000000b4c50000cec50000
+    m_ExpandedInstanceIDs: c623000000000000b4c50000cec5000026c20100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: tap
+      m_OriginalName: tap
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 115238
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 3}
     m_CreateAssetUtility:
@@ -15099,8 +14009,8 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 83.42857
---- !u!114 &21
+  m_DirectoriesAreaWidth: 106.42857
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15122,8 +14032,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 72.571434
-    width: 923
-    height: 661.5715
+    width: 955
+    height: 662
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -15170,10 +14080,10 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 923
-      height: 640.5715
-    m_Scale: {x: 0.841276, y: 0.841276}
-    m_Translation: {x: 461.5, y: 320.28574}
+      width: 955
+      height: 641
+    m_Scale: {x: 0.8704426, y: 0.8704427}
+    m_Translation: {x: 477.5, y: 320.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -15181,18 +14091,18 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -548.5715
-      y: -380.71423
+      y: -368.20346
       width: 1097.143
-      height: 761.42847
+      height: 736.4069
     m_MinimalGUI: 1
-  m_defaultScale: 0.841276
-  m_LastWindowPixelSize: {x: 1615.25, y: 1157.7501}
+  m_defaultScale: 0.8704426
+  m_LastWindowPixelSize: {x: 1671.25, y: 1158.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &22
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15213,9 +14123,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 72.571434
-    width: 923
-    height: 661.5715
+    y: 19
+    width: 941.8571
+    height: 662
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -15423,14 +14333,14 @@ MonoBehaviour:
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 1
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1011.6928, y: 744.92554, z: -5.227361}
+    m_Target: {x: -24.098595, y: 0.661812, z: 0.4704564}
     speed: 2
-    m_Value: {x: 1011.6928, y: 744.92554, z: -5.227361}
+    m_Value: {x: -24.098595, y: 0.661812, z: 0.4704564}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -15459,17 +14369,17 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     yGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -15477,17 +14387,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: 0.45465636, y: -0.21128729, z: 0.111968614, w: 0.85797614}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 0.454653, y: -0.21128573, z: 0.11196779, w: 0.8579698}
   m_Size:
-    m_Target: 903.09955
+    m_Target: 4.4073133
     speed: 2
-    m_Value: 903.09955
+    m_Value: 4.4073133
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -15501,14 +14411,14 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.46527454, y: 0.3872909, z: -0.23723754, w: -0.75976926}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &23
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15528,34 +14438,34 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 924.00006
-    y: 72.571434
-    width: 247.14285
-    height: 175
+    x: -17329.715
+    y: -18255.43
+    width: 232.85715
+    height: 207
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 38}
-      m_SelectedIDs: 34630000
-      m_LastClickedID: 25396
-      m_ExpandedIDs: b674fcff187bfcff7087fcff2097fcffc0acfcffaec2fcffdafaffff346300009c650000d8650000786700008468000026ea010032190200
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 3486ffff48d4ffff28daffffd8deffff62ecffffecf1fffff4f1ffff1cf7ffffdafaffff806300009c63000066c60000b0c7000004cb0000dacc000076cf0000260c0100742b0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: UICanvas
-        m_OriginalName: UICanvas
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 25396
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 

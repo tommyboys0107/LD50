@@ -80,6 +80,7 @@ public class Leaderboard : MonoBehaviour
     {
         LootLockerSDKManager.GetScoreList(leaderBoardID, topRecordCount, (response) =>
         {
+            refreshBtn.gameObject.SetActive(!response.success);
             if (response.success)
             {
                 var topRecord = response.items;
@@ -87,17 +88,19 @@ public class Leaderboard : MonoBehaviour
                 for (var i = 0; i < topRecordTextList.Count; i++)
                     if (i < topRecord.Length)
                         topRecordTextList[i].text =
-                            $"{i}. {@TimeSpan.FromTicks(topRecord[i].score):mm\\:ss\\.ff} --- {topRecord[i].member_id}";
+                            $"{i + 1}. {@TimeSpan.FromTicks(topRecord[i].score):mm\\:ss\\.ff} --- {topRecord[i].member_id}";
                     else
-                        topRecordTextList[i].text = $"{i}. ??:??.??";
+                        topRecordTextList[i].text = $"{i + 1}. ??:??.??";
             }
             else
             {
                 for (var i = 0; i < topRecordTextList.Count; i++)
                     if (i == 0)
-                        topRecordTextList[i].text = "Network error! Please try again.";
+                        topRecordTextList[i].text = "Network error!";
+                    else if (i == 1)
+                        topRecordTextList[i].text = $"Click \"Refresh\" to try again.";
                     else
-                        topRecordTextList[i].text = $"{i}. ??:??.?? - No Record.";
+                        topRecordTextList[i].text = "";
             }
         });
     }
